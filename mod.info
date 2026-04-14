@@ -1,0 +1,17 @@
+; This is a template mod descriptor file
+; See README.txt for details
+; Comments start with ';'
+{mod
+	; name of your mod
+	{name "letsgo"}
+	
+	; mod tags
+	;{tags "list of tags"}
+
+	; description of your mod
+	{desc "Все более менее работает, но прошу не наезжать на НПС на автомобиле а также не пытаться ломать сюжет (он сломается). Приятного прохождения!"}
+
+	{minGameVersion "any"}
+	{maxGameVersion "any"}
+	
+}

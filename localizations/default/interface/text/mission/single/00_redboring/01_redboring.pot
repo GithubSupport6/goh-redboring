@@ -1,0 +1,250 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Editor (redboring)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "mission/single/00_redboring/01_redboring/name"
+msgid "Мы поехали, командир!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/place"
+msgid "Где то на просторах миссий GOH"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/date"
+msgid "Лето 2025"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/campaign/title"
+msgid "СССР, 2025"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/campaign/name"
+msgid "Редскука"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hogbuilt"
+msgid "Как же я заебался ставить эти ежи! Зачем нам вообще их столько?"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/answertohog1"
+msgid "Затем, что сюда скоро приедет огромное количество совьет танкс, Отто!  Мы решили застроить ими всю карту к чертовой матери."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/answertohog2"
+msgid "А теперь получай следующее задание. Складывай оружие и иди лежать в куст на передовой. Будешь оттуда нам сообщать какие танки едут."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hogtoofficer1"
+msgid "Ну это вы конечно круто придумали! А что если меня заметят, мне же пизда!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/answertohog3"
+msgid "Ну, есть и другая опция. Можешь взять кучу ПТ-гранат и кидать их в танки! Штук 20 точно придется подбить, их там дохренища."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hogtoofficer2"
+msgid "Понял, пойду в куст тогда..."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/gotonewmedical"
+msgid "Надо проверить Гарольда. Он обещал перенести медпункт в новое место."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/slowwalkcomment"
+msgid "Как же ты блять медленно ходишь, Отто!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/newmedical_alex1"
+msgid "Ну что, как успехи с переносом медпункта?"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/newmedical_garold1"
+msgid "Все продвигается отлично. Две машины уже на месте, как и большая часть медикаментов. Как хорошо, что мы заранее в спокойной обстановке этим занимаемся! Представь, что было бы если бы мы затянули! Нам бы пришлось увозить раненых под обстрелом, только подумать об этом страшно..."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/newmedical_alex2"
+msgid "Точно, это крайне своевременное решение. Нужна какая-то помощь?"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/newmedical_garold2"
+msgid "Да, одна машина так и не доехала, у водителей какие-то проблемы. Не мог бы ты узнать в чем дело, и помочь им?"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/newmedical_alex3"
+msgid "Щас разберемся."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/newmedicaldescr"
+msgid "Нужно проверить, удалось ли Гарольду перенести медпункт в новое место."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_alex1"
+msgid "Так, что тут происходит? Почему санитарная машина всё ещё здесь? Она должна быть в новом медпункте."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_sanitar1"
+msgid "А... Это, ну так там раненый лежит, нам надо сьездить за ним на переднюю линию..."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_alex2"
+msgid "Что?! Так чего вы ждете, нужно срочно ехать туда! Я поеду с вами!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_sanitar2"
+msgid "Да не, все ок, мы скоро сами сьездим, вы пока можете дождаться нас на здесь."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_alex3"
+msgid "Что за чушь? Поехали, сейчас же! Он же может умереть!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_sanitar3"
+msgid "Ладно, ладно, тогда едем, конечно..."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_sanitar4"
+msgid "Где-то здесь он был... Вы пока можете ехать назад, я сейчас его найду и догоню..."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_alex4"
+msgid "Это что блять такое, закладка? Мы за закладкой сюда приехали?! Там сейчас танки приедут а вы все не надолбитесь своей хуйней!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_sanitar5"
+msgid "Ыыыыаа, ыы"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_alex_kill"
+msgid "По закону военного времени, мудила!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/medical_alex_ignore"
+msgid "Ладно, похуй. Поехали на базу."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/checkcardescr"
+msgid "Узнать, почему задержалась медицинская машина."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/checkwounded"
+msgid "Найти раненого."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/killsanitar"
+msgid "...или разобраться с санитаром."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/savesanitar"
+msgid "...или оставить санитара в покое."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/defend"
+msgid "Защитить медицинский грузовик и уничтожить танк."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/finishgame_failure"
+msgid "Вы проиграли, теперь полчаса заново расставляйте мины и ежи."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/finishgame_win"
+msgid "Вы победили, поздравляю! Мораль миссии: наркотики это плохо."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/gotonewmedical"
+msgid "Надо проверить Гарольда. Он обещал перенести медпункт в новое место."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddenderugs_response1"
+msgid "Может, он уже добрался до медпункта? Думаю, можно ехать назад."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendeugs_find"
+msgid "Обыскать местность."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_checkbody"
+msgid "Проверить тело санитара."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_drugsalmostfound"
+msgid "Тут что-то не так, где ваш раненый?"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_drugsfound"
+msgid "Блять так вот в чем дело! Это просто закладка! Ну все, готовься, мудак!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_killed"
+msgid "У нас тут вообще-то война а не хуйня всякая!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_leftalone"
+msgid "Ладно, сейчас всем тяжело, уйди с глаз моих."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_response2"
+msgid "Мужик, убери пистолет, это последний раз, обещаю!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_response3"
+msgid "Фух, ну ты и пугаешь конечно...."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_return"
+msgid "Вернуться в медпункт."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/hiddendrugs_returnspeech"
+msgid "Нужно вернуться в медпункт."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/stash_checked"
+msgid "Ну нифига себе, что тут лежит! И зачем ему это всё было нужно..."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/stash_checkstash"
+msgid "Проверить тайник санитара."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/stash_found"
+msgid "Ага, тут какая-то карта! Надо проверить, вдруг там еще наркота."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/tankarrive_anssweralexander1"
+msgid "Что?! Вы там совсем что ли? Стоять!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/tanksarrive_comment"
+msgid "Как хорошо, что мы можем свободно ездить на своем грузовике где мы захотим в эти трудные времена!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/tanksarrive_medicgo"
+msgid "Ну все, время пришло, нам нужно срочно проехать проехать по всей карте на медицинском грузовике!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/tanksarrive_quest"
+msgid "Защитить медицинский грузовик от танка ИС-2."
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/tanksarrive_scream"
+msgid "Майор, советские танки! Нам нужно их остановить!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/thisisis2"
+msgid "Это же танк ИС-2, его даже не изобрели еще!"
+msgstr ""
+
+msgctxt "mission/single/00_redboring/01_redboring/pak40andguy"
+msgid "Точно! У меня же ещё есть пушка! Пушка, выполнять мою команду!"
+msgstr ""
+

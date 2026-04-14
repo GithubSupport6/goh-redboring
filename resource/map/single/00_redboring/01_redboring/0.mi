@@ -1,0 +1,6775 @@
+{mission
+	{Human "mp/ger/mid/medic" 0xa000
+		{Position 5268.75 -388}
+		{xform zl -22.05}
+		{TexMod "winter"}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "heritage"
+			{Children
+				0x8003}
+		}
+		{Player 2}
+		{MID 1}
+		{NameId 132 48}
+		{FsmState "stand_noaim"}
+	}
+	{Human "single/ger/1943_win/officer" 0xd000
+		{Position -254.05 1302.09}
+		{xform zl 94.14}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+		{MID 2}
+		{NameId 3 145}
+		{FsmState "stand_noaim"}
+	}
+	{Entity "75mm_pak40" 0xd002
+		{Position -185.53 1361.6 232.26}
+		{xform zl 26.79 y 3.01 zw -107.41}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+			{State "driver3" {Disable}}
+			{State "driver4" {Disable}}
+			{State "seat1" {Disable}}
+			{State "seat2" {Disable}}
+			{State "seat3" {Disable}}
+			{State "seat4" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Extender "detail"
+			{random}
+		}
+		{AreaDisable "close"}
+		{Player 2}
+		{MID 3}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xd003
+		{Position -202.83 1396.01}
+		{xform zl 26.79 y 3.01 zw -107.41}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 4}
+		{NameId 134 83}
+		{LastItem "p38"}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xd005
+		{Position -180.57 1403.9}
+		{xform zl 26.79 y 3.01 zw -107.41}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 5}
+		{NameId 125 64}
+		{LastItem "p38"}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xd006
+		{Position -175.05 1422.25}
+		{xform zl 26.79 y 3.01 zw -107.41}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 6}
+		{NameId 64 106}
+		{LastItem "p38"}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xd009
+		{Position -215.38 1415.61}
+		{xform zl 26.79 y 3.01 zw -107.41}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 7}
+		{NameId 30 23}
+		{LastItem "p38"}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xd00a
+		{Position -82.06 1493.74}
+		{xform zl -132.59}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 8}
+		{NameId 131 49}
+		{FsmState "stand_noaim"}
+	}
+	{Human "single/ger/1943_win/officer" 0xa003
+		{Position 5491.43 4138.61}
+		{xform zl 108.64}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 9}
+		{NameId 45 145}
+		{LastThrowItem "knife_ger"}
+		{FsmState "stand_noaim"}
+	}
+	{Human "civ/civ_ger_4" 0xe000
+		{Position -802.36 2222.08}
+		{xform zl 102.39}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 10}
+		{Able "-personage"}
+		{NameId 79 94}
+	}
+	{Entity "28mm_pzb41" 0xc000
+		{Position -5934.5 2810.55}
+		{xform zl -48.43}
+		{SpawnedInFog}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+			{State "driver3" {Disable}}
+			{State "seat1" {Disable}}
+			{State "seat2" {Disable}}
+			{State "seat3" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Extender "detail"
+			{random}
+		}
+		{Player 2}
+		{MID 11}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xc001
+		{Position -5956.8 2830.51}
+		{xform zl 180 y 8 zw 131.57}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 12}
+		{NameId 137 61}
+		{LastItem "p38"}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xc002
+		{Position -5945.02 2836.78}
+		{xform zl -48.43}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 13}
+		{NameId 12 41}
+		{LastItem "p38"}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xa004
+		{Position -5780.87 2981.52}
+		{xform zl 180 y 8 zw 126.75}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 14}
+		{NameId 110 104}
+		{LastItem "p38"}
+	}
+	{Human "single/ger/1943_win/tankman_stug" 0xa005
+		{Position -5768.61 2986.78}
+		{xform zl -53.25}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 15}
+		{NameId 120 76}
+		{LastItem "p38"}
+	}
+	{Entity "28mm_pzb41" 0xa006
+		{Position -5760.33 2959.76}
+		{xform zl -53.25}
+		{SpawnedInFog}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+			{State "driver3" {Disable}}
+			{State "seat1" {Disable}}
+			{State "seat2" {Disable}}
+			{State "seat3" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Extender "detail"
+			{random}
+		}
+		{Player 2}
+		{MID 16}
+	}
+	{Human "single/ger/1943_win/engineer_1" 0xa007
+		{Position -904.06 1001.7}
+		{xform zl 105.42}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 17}
+		{NameId 145 82}
+		{FsmState "stand_noaim"}
+	}
+	{Entity "k98" 0xa008
+		{Extender "stuff"
+			{Item "k98" filled 4}
+		}
+	}
+	{Human "single/ger/1943_win/engineer_1" 0xe001
+		{Position -947.95 979.24}
+		{xform zl 70.79}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 18}
+		{NameId 70 75}
+		{FsmState "stand_noaim"}
+	}
+	{Entity "k98" 0xe002
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Entity "canned_meat" 0x9000
+		{Position -822.42 2234.96 256.5}
+		{xform zl 1.09 y 86.79 zw -1.09}
+	}
+	{Entity "canned_meat" 0x9001
+		{Position -822.45 2234.94 254}
+		{xform zl 0.26 y 84.65 zw -0.26}
+	}
+	{Entity "canned_meat" 0x9002
+		{Position -824.7 2243.58 256.5}
+		{xform zl -2.32 y 93.12 zw 2.33}
+	}
+	{Entity "canned_meat" 0x9003
+		{Position -824.6 2242.37 254}
+		{xform zl -1.08 y 91.53 zw 1.08}
+	}
+	{Entity "canned_meat" 0x9004
+		{Position -824.99 2244.58 254}
+		{xform zl -2.51 y 92.42 zw 2.5}
+	}
+	{Entity "canned_meat" 0x9005
+		{Position -825.18 2246.74 254}
+		{xform zl -1.36 y 92.81 zw 1.96}
+	}
+	{Entity "canned_meat" 0x9006
+		{Position -825.12 2245.5 256.5}
+		{xform zl 1.67 y 86.76 zw -1.67}
+	}
+	{Entity "canned_meat" 0x9007
+		{Position -825.04 2244.37 258.5}
+		{xform zl 3.16 y 90.4 zw -3.16}
+	}
+	{Entity "canned_meat" 0x9008
+		{Position -822.51 2227.32 254}
+	}
+	{Entity "canned_meat" 0x9009
+		{Position -824.17 2236.22 254}
+	}
+	{Entity "canned_meat" 0x900a
+		{Position -823.86 2233.47 254}
+	}
+	{Entity "b33r" 0x900b
+		{Position -785.34 2215.37}
+	}
+	{Entity "lamp_kerosene" 0x8000
+		{Position -830.51 2238.74 251.48}
+	}
+	{Entity "sugar" 0x8001
+		{Position -781.86 2235.62 234.1}
+	}
+	{Entity "shotgun" 0x8002
+		{Position -787.07 2228.12 241.49}
+		{xform zl -135.39 y 93.08 zw 95.54}
+	}
+	{Human "single/rus/1943_win/tankman" 0xc00d
+		{Position 1620.79 -8798.11}
+		{xform zl 33.07 y 5.06 zw 158.86}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 1}
+		{MID 33}
+		{NameId 80 26}
+		{LastItem "tt33"}
+	}
+	{Human "single/rus/1943_win/tankman" 0xc00e
+		{Position 1537.26 -8815.82}
+		{xform zl -146.92 y 5.06 zw 158.86}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 1}
+		{MID 34}
+		{NameId 60 108}
+		{LastItem "tt33"}
+	}
+	{Human "single/rus/1943_win/tankman" 0xc00f
+		{Position 1620.79 -8798.11}
+		{xform zl 33.07 y 5.06 zw 158.86}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 1}
+		{MID 35}
+		{NameId 47 281}
+		{LastItem "tt33"}
+	}
+	{Entity "is2_44" 0xc010
+		{Position -634.74 -8526.59 3.71}
+		{xform zl 117.42 y 0.28 zw -24.94}
+		{TexMod "winter"}
+		{SpawnedInFog}
+		{Volume "detail1"
+			{disabled}
+		}
+		{Volume "detail2"
+			{disabled}
+		}
+		{Volume "detail3"
+			{disabled}
+		}
+		{Extender "enumerator"
+			{number 34}
+			{digit_folder "ru1"}
+		}
+		{Extender "detail"
+			{random}
+		}
+		{Player 1}
+		{MID 36}
+	}
+	{Human "single/rus/1943_win/tankman_com" 0xe003
+		{Position 1751.89 -8803.61}
+		{xform zl 30.85 y 5.02 zw 161.1}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 1}
+		{MID 19}
+		{NameId 126 305}
+	}
+	{Entity "ppd40" 0xe004
+		{Extender "stuff"
+			{Item "ppd40" filled 71}
+		}
+	}
+	{Entity "blitz3_6" 0x8005
+		{Position 5430.29 4028.19}
+		{xform zl -179.74 y 0.81 zw -11.52}
+		{TexMod "medic_winter"}
+		{SpawnedInFog}
+		{Extender "detail"
+			{random 0}
+			{detail9}
+		}
+		{Player 2}
+		{MID 25}
+		{Chassis
+			{Broken}
+		}
+	}
+	{Entity "blitz3_6" 0x8009
+		{Position 5346.49 4159.69 222.35}
+		{xform zl 55.69 y 5.16 zw 25.26}
+		{TexMod "medic_winter"}
+		{Extender "detail"
+			{random 0}
+			{detail9}
+		}
+		{Player 2}
+		{MID 26}
+	}
+	{Entity "kubelwagen" 0x800b
+		{Position -57.34 1807.03 236.47}
+		{xform zl -179.9 y 2.44 zw -163.87}
+		{TexMod "winter"}
+		{Extender "enumerator"
+			{number 878}
+			{digit_folder "np"}
+		}
+		{Extender "detail"
+			{random 0}
+			{detail1 0}
+		}
+		{Player 0}
+		{MID 32}
+	}
+	{Human "single/ger/1942_win/blau_medic" 0x800d
+		{Position 5408.6 4025.73}
+		{xform zl -179.74 y 0.81 zw -11.52}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "heritage"
+			{Children
+				0x8008}
+		}
+		{Player 0}
+		{MID 37}
+		{NameId 109 129}
+		{LastItem "k98"}
+	}
+	{Entity "k98" 0x800e
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_medic" 0xc003
+		{Position 5560.34 4317.46}
+		{xform zl -150.74}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "heritage"
+			{Children
+				0x800a}
+		}
+		{Player 2}
+		{MID 38}
+		{NameId 79 115}
+		{FsmState "stand_noaim"}
+	}
+	{Entity "k98" 0xc004
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_medic" 0xa001
+		{Position 5538.97 4308.4 221.02}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "heritage"
+			{Children
+				0x800c}
+		}
+		{Player 2}
+		{MID 39}
+		{NameId 126 99}
+		{FsmState "stand_noaim"}
+	}
+	{Entity "k98" 0xa002
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_medic" 0xe005
+		{Position 5411.1 4038.06}
+		{xform zl -179.74 y 0.81 zw -11.52}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "heritage"
+			{Children
+				0x8007}
+		}
+		{Player 0}
+		{MID 40}
+		{NameId 107 54}
+		{LastItem "k98"}
+	}
+	{Entity "k98" 0xe006
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "mp/ger/mid/medic" 0xd008
+		{Position 5306.11 -413.05}
+		{xform zl 97.67}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Simulation {Able 0}}
+		{Extender "heritage"
+			{Children
+				0x8010}
+		}
+		{DisableObstaclesEditor}
+		{Player 2}
+		{MID 42}
+		{NameId 116 22}
+		{FsmState "stand_noaim"}
+	}
+	{Entity "box1" 0xd00c
+		{Position 5277.27 -432.14}
+	}
+	{Entity "box1" 0xd00d
+		{Position 5291.81 -432.49}
+	}
+	{Entity "barrel1" 0xd00e
+		{Position 5287.79 -450.91}
+	}
+	{Entity "morphine" 0xf000
+		{Position 1129.1 -3410.31 73.99}
+	}
+	{Entity "lamp_kerosene" 0xf001
+		{Position 5284.36 -432.95 183.68}
+	}
+	{Entity "molotov_cocktail" 0x800f
+		{Position 5292.8 -428.99 188.49}
+		{xform zl 177.39 y 91.73 zw -177.33}
+	}
+	{Entity "molotov_cocktail" 0x8011
+		{Position 5278.5 -428.9 188.83}
+		{xform zl 177.39 y 91.73 zw -177.33}
+	}
+	{Entity "box_metal" 0xd00b
+		{Position 5284.25 -432.93 180.68}
+	}
+	{Entity "chair" 0x8017
+		{Position 5307.66 -429.03}
+		{xform zl 179.01}
+	}
+	{Entity "chair" 0x8018
+		{Position 5261.81 -427.44}
+		{xform zl 8.27}
+	}
+	{Entity "morphine" 0x8019
+		{Position 711.78 -3567.61 55.88}
+	}
+	{Entity "morphine" 0x801a
+		{Position 711.86 -3569.27 55.54}
+	}
+	{Entity "morphine" 0x801b
+		{Position 711.94 -3570.91 55.21}
+	}
+	{Entity "morphine" 0x801c
+		{Position 712.12 -3572.42 54.91}
+	}
+	{Entity "morphine" 0x801d
+		{Position 715.98 -3570.76 55.24}
+	}
+	{Entity "morphine" 0x801e
+		{Position 715.92 -3569.03 55.59}
+	}
+	{Entity "morphine" 0x801f
+		{Position 716 -3567.48 55.9}
+	}
+	{Entity "morphine" 0x8020
+		{Position 716.29 -3572.34 54.93}
+	}
+	{Entity "pointer" 0xc05d
+		{Position 5490.62 4140.24}
+	}
+	{Entity "pointer" 0x8021
+		{Position 5281.09 -414.64}
+	}
+	{Entity "pointer" 0x8022
+		{Position 563.68 -3501.33}
+	}
+	{Entity "box1" 0xc005
+		{Position 5541.38 -630.34}
+	}
+	{Entity "opel_blitz_wheel" 0x8012
+		{Position 5446.33 -376.5}
+	}
+	{Entity "pointer" 0xc006
+		{Position 5537.72 -628.44}
+	}
+	{Entity "bmw_r71" 0x8013
+		{Position 5117.43 -255.65}
+		{xform zl 160.19 y 1.58 zw -29.13}
+		{TexMod "winter"}
+		{Volume "detail21"
+			{disabled}
+		}
+		{Volume "detail22"
+			{disabled}
+		}
+		{Extender "detail"
+			{random}
+		}
+		{Player 2}
+		{MID 20}
+	}
+	{Entity "blitz3_6" 0xa009
+		{Position -28.36 1694.76 236.8}
+		{xform zl -179.74 y 0.79 zw -161.38}
+		{Extender "detail"
+			{random}
+		}
+		{Player 2}
+		{MID 21}
+	}
+	{Human "single/ger/1942_win/blau_2" 0xe007
+		{Position -6835.52 -610.57}
+		{xform zl -94.7}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 22}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.995403}
+					{prevposition -6832.53 -636.02 187.47}
+					{prevdirection -0.0116864 -0.999857 -0.0122988}
+				}
+			}
+		}
+		{NameId 109 96}
+		{Cover
+			{sector -6835.52 -610.579 {type "snipe_cover"}
+				{wall -6821.08 -618.792 -6847.37 -616.626}
+				{row 0}
+				{link 0x71db}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0xe008
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Entity "k98" 0x900c
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x900d
+		{Position -6244.95 -551.34}
+		{xform zl -91.03}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 23}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996089}
+					{prevposition -6241.72 -575.929 193.679}
+					{prevdirection -0.0166069 -0.999861 0.00200678}
+				}
+			}
+		}
+		{NameId 105 111}
+		{Cover
+			{sector -6244.95 -551.343 {type "squat_lie"}
+				{wall -6225.52 -558.696 -6262.15 -558.032}
+				{row 0}
+				{link 0x1256}
+			}
+		}
+		{FsmState "squat"}
+	}
+	{Entity "k98" 0x900e
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x900f
+		{Position -4576.7 308.89}
+		{xform zl -113.07}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 24}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.991374}
+					{prevposition -4582.13 283.762 225.436}
+					{prevdirection -0.331793 -0.943286 -0.0112789}
+				}
+			}
+		}
+		{NameId 114 52}
+		{Cover
+			{sector -4576.7 308.896 {type "snipe_cover"}
+				{wall -4566.16 296.797 -4590.43 307.135}
+				{row 0}
+				{link 0x2c23}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9010
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9011
+		{Position -7075.06 -1255.81}
+		{xform zl -97.12}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 27}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996983}
+					{prevposition -7074.9 -1275.27 193.33}
+					{prevdirection -0.175106 -0.878121 0.445245}
+				}
+			}
+		}
+		{NameId 107 4}
+		{Cover
+			{sector -7075.06 -1255.82 {type "snipe_cover"}
+				{wall -7060.98 -1264.63 -7087.15 -1261.36}
+				{row 0}
+				{link 0x2c1f}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9012
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9013
+		{Position -6986.67 -966.03}
+		{xform zl -74.41}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 28}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996988}
+					{prevposition -6979.02 -983.918 184.422}
+					{prevdirection 0.177429 -0.877654 0.445245}
+				}
+			}
+		}
+		{NameId 111 63}
+		{Cover
+			{sector -6986.67 -966.038 {type "snipe_cover"}
+				{wall -6965.4 -967.373 -6990.81 -974.46}
+				{row 0}
+				{link 0x71e0}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9014
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9015
+		{Position -6983.22 -803.99}
+		{xform zl -37.38}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 29}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996957}
+					{prevposition -6966.34 -813.654 181.866}
+					{prevdirection 0.670409 -0.593347 0.445524}
+				}
+			}
+		}
+		{NameId 78 4}
+		{Cover
+			{sector -6983.22 -803.998 {type "snipe_cover"}
+				{wall -6960.61 -805.908 -6993.69 -849.201}
+				{row 0}
+				{link 0x71de}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9016
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9017
+		{Position -5102.62 -259.07}
+		{xform zl -140.38}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 30}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.999136}
+					{prevposition -5120.05 -277.639 207.638}
+					{prevdirection -0.770378 -0.637588 -9.93216e-07}
+				}
+			}
+		}
+		{NameId 126 87}
+		{Cover
+			{sector -5102.62 -259.076 {type "snipe_cover"}
+				{wall -5098.4 -275.144 -5115.22 -254.823}
+				{row 0}
+				{link 0x2c2d}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9018
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9019
+		{Position -5409.13 -287.66}
+		{xform zl -61.16}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 31}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.998106}
+					{prevposition -5394.16 -308.259 206.744}
+					{prevdirection 0.481686 -0.876345 -1.0809e-05}
+				}
+			}
+		}
+		{NameId 121 48}
+		{Cover
+			{sector -5409.13 -287.665 {type "snipe_cover"}
+				{wall -5401.38 -291.386 -5432.12 -308.309}
+				{row 0}
+				{link 0x533c}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x901a
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x901b
+		{Position -6055.44 -491.98}
+		{xform zl -32.58}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 43}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.997003}
+					{prevposition -6032.44 -502.903 198.096}
+					{prevdirection 0.841938 -0.539575 -2.0078e-05}
+				}
+			}
+		}
+		{NameId 9 26}
+		{Cover
+			{sector -6055.44 -491.984 {type "snipe_cover"}
+				{wall -6043.21 -485.837 -6057.23 -507.775}
+				{row 0}
+				{link 0x10fb}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x901c
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x901d
+		{Position -4817.72 18.75}
+		{xform zl -92.8}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 44}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996866}
+					{prevposition -4816.05 -0.604729 216.593}
+					{prevdirection -0.106142 -0.888402 0.446628}
+				}
+			}
+		}
+		{NameId 96 101}
+		{Cover
+			{sector -4817.72 18.7592 {type "snipe_cover"}
+				{wall -4813.07 11.5231 -4839.42 12.8128}
+				{row 0}
+				{link 0x2c27}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x901e
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x901f
+		{Position -5860.33 -575.54}
+		{xform zl -118.25}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 45}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996855}
+					{prevposition -5867.14 -593.746 218.815}
+					{prevdirection -0.477371 -0.75665 0.446764}
+				}
+			}
+		}
+		{NameId 97 145}
+		{Cover
+			{sector -5860.33 -575.541 {type "snipe_cover"}
+				{wall -5849.31 -589.41 -5871.34 -577.572}
+				{row 0}
+				{link 0x169}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9020
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9021
+		{Position -4050 946.52}
+		{xform zl 129.29}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 46}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996838}
+					{prevposition -4064.23 959.756 239.818}
+					{prevdirection -0.517147 0.729954 0.446909}
+				}
+			}
+		}
+		{NameId 39 144}
+		{Cover
+			{sector -4050 946.52 {type "snipe_cover"}
+				{wall -4071.56 953.59 -4029.4 988.093}
+				{row 0}
+				{link 0x28cd}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9022
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9023
+		{Position -4239.59 793.38}
+		{xform zl -59.92}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 47}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.99558}
+					{prevposition -4224.2 773.096 235.281}
+					{prevdirection 0.49836 -0.866971 -4.93412e-05}
+				}
+			}
+		}
+		{NameId 83 142}
+		{Cover
+			{sector -4239.59 793.38 {type "snipe_cover"}
+				{wall -4193.23 812.137 -4241.49 784.19}
+				{row 0}
+				{link 0x28cb}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9024
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9025
+		{Position -3504.42 964.36}
+		{xform zl 100.99}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 48}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.96586}
+					{prevposition -3491.62 974.414 260.954}
+					{prevdirection 0.967803 0.249832 -0.0306803}
+				}
+			}
+		}
+		{NameId 63 87}
+		{Cover
+			{sector -3504.42 964.362 {type "hide_stand"}
+				{wall -3482.32 961.527 -3540.93 950.135}
+				{row 0}
+				{link 0xbbc}
+			}
+		}
+		{FsmState "stand_noaim"}
+	}
+	{Entity "k98" 0x9026
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9027
+		{Position -2517.62 547.83}
+		{xform zl -78.99}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 49}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.995222}
+					{prevposition -2509.72 523.625 254.697}
+					{prevdirection 0.186731 -0.982412 -6.43741e-05}
+				}
+			}
+		}
+		{NameId 76 37}
+		{Cover
+			{sector -2517.62 547.834 {type "snipe_cover"}
+				{wall -2484.89 534.715 -2544.28 523.169}
+				{row 0}
+				{link 0xe62}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9028
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9029
+		{Position -2645.05 519.79}
+		{xform zl -90.99}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 50}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996779}
+					{prevposition -2642.72 500.51 256.718}
+					{prevdirection -0.0759199 -0.890882 0.447846}
+				}
+			}
+		}
+		{NameId 88 141}
+		{Cover
+			{sector -2645.05 519.795 {type "snipe_cover"}
+				{wall -2591.71 511.863 -2651.43 512.905}
+				{row 0}
+				{link 0x41db}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x902a
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x902b
+		{Position -2668.62 689.48}
+		{xform zl -86.77}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 51}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.975379}
+					{prevposition -2664.86 670.424 260.845}
+					{prevdirection -0.00951096 -0.893929 0.448109}
+				}
+			}
+		}
+		{NameId 3 4}
+		{Cover
+			{sector -2668.62 689.48 {type "snipe_cover"}
+				{wall -2656.56 683.15 -2681.14 681.763}
+				{row 0}
+				{link 0x294c}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x902c
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x902d
+		{Position 1559.84 729.81}
+		{xform zl -106.47}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 52}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.996122}
+					{prevposition 1556.46 705.233 231.815}
+					{prevdirection -0.281824 -0.959464 0.00235118}
+				}
+			}
+		}
+		{NameId 73 96}
+		{Cover
+			{sector 1559.84 729.816 {type "squat_lie"}
+				{wall 1611.69 707.188 1545.72 726.693}
+				{row 0}
+				{link 0x4c1b}
+			}
+		}
+		{FsmState "squat"}
+	}
+	{Entity "k98" 0x902e
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x902f
+		{Position 2160.72 526.81}
+		{xform zl -164.49}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 53}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.994256}
+					{prevposition 2137.86 515.229 219.848}
+					{prevdirection -0.94241 -0.334239 -0.0122468}
+				}
+			}
+		}
+		{NameId 58 26}
+		{Cover
+			{sector 2160.72 526.816 {type "snipe_cover"}
+				{wall 2155.31 520.126 2148.26 545.542}
+				{row 0}
+				{link 0x2941}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9030
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9031
+		{Position 2346.36 3.97}
+		{xform zl -118.5}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 54}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.994653}
+					{prevposition 2338.82 -20.5163 215.828}
+					{prevdirection -0.414314 -0.910052 -0.0122669}
+				}
+			}
+		}
+		{NameId 41 64}
+		{Cover
+			{sector 2346.36 3.97091 {type "snipe_cover"}
+				{wall 2355.71 -9.07199 2332.53 3.51825}
+				{row 0}
+				{link 0x2929}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9032
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9033
+		{Position 2612.67 51.4}
+		{xform zl -134.13}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 55}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.995401}
+					{prevposition 2598.82 29.8565 224.893}
+					{prevdirection -0.644003 -0.764925 -0.0122988}
+				}
+			}
+		}
+		{NameId 118 140}
+		{Cover
+			{sector 2612.67 51.4089 {type "snipe_cover"}
+				{wall 2618.16 36.3309 2599.23 54.6976}
+				{row 0}
+				{link 0x2932}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9034
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9035
+		{Position 2971.61 176.49}
+		{xform zl -36.76}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 56}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.965473}
+					{prevposition 2989.48 168.845 239.941}
+					{prevdirection 0.776689 -0.483879 0.403258}
+				}
+			}
+		}
+		{NameId 125 48}
+		{Cover
+			{sector 2971.61 176.495 {type "snipe_cover"}
+				{wall 2984.26 181.728 2968.68 160.878}
+				{row 0}
+				{link 0x2934}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9036
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9037
+		{Position 1709.29 75.57}
+		{xform zl -176.21}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 57}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.998315}
+					{prevposition 1690.86 69.7234 212.812}
+					{prevdirection -0.902214 -0.146512 0.405641}
+				}
+			}
+		}
+		{NameId 17 103}
+		{Cover
+			{sector 1709.29 75.572 {type "snipe_cover"}
+				{wall 1703.24 61.014 1701.5 87.3342}
+				{row 0}
+				{link 0x2927}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Entity "k98" 0x9038
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "single/ger/1942_win/blau_2" 0x9039
+		{Position 3264.96 165.81}
+		{xform zl 76.97}
+		{SpawnedInFog}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 2}
+		{MID 58}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.99978}
+					{prevposition 3267.55 191.147 243.693}
+					{prevdirection 0.225379 0.974272 6.63554e-06}
+				}
+			}
+		}
+		{NameId 118 48}
+		{Cover
+			{sector 3264.96 165.815 {type "snipe_cover"}
+				{wall 3228.26 193.933 3282.58 181.367}
+				{row 0}
+				{link 0x2939}
+			}
+		}
+		{FsmState "snipe"}
+	}
+	{Human "mp/ger/late/blau_1" 0x8014
+		{Position -609.57 -3519.65}
+		{xform zl -68.23 y 15.67 zw -45.23}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "vitality"
+			{Dead}
+			{Health
+				{current 0}
+			}
+			{Stamina
+				{current 0}
+			}
+		}
+		{DisableObstacles}
+		{Player 0}
+		{MID 59}
+		{Able "-select" "-personage"}
+		{NameId 109 130}
+		{LastDyingAnimation "stand_scenic-die_front_2"}
+		{Attack 72 1 "mp/rus/late/antitank_6" 1 "pps43" "pps_stick ammo"}
+		{FsmState "dead"}
+	}
+	{Entity "mp40_unfolded" 0x8015
+		{Position -604.08 -3546.16 62.29}
+		{xform zl -106.98 y 169.36 zw 134.37}
+		{Extender "stuff"
+			{Item "mp40_unfolded" filled 32}
+		}
+	}
+	{Human "mp/ger/late/blau_2" 0xc007
+		{Position -362.89 -3701.88}
+		{xform zl -59.72 y 0.33 zw -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "vitality"
+			{Dead}
+			{Health
+				{current 0}
+			}
+			{Stamina
+				{current 0}
+			}
+		}
+		{DisableObstacles}
+		{Player 0}
+		{MID 60}
+		{Able "-select" "-personage"}
+		{NameId 79 116}
+		{LastDyingAnimation "stand_scenic-die_front_1"}
+		{Attack 72 1 "mp/rus/late/antitank_6" 1 "pps43" "pps_stick ammo"}
+		{FsmState "dead"}
+	}
+	{Entity "k98" 0xc008
+		{Position -386.75 -3672.53 48.34}
+		{xform zl -86.79 y 170 zw 96.9}
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "mp/ger/late/blau_2" 0xa00a
+		{Position 51.51 -3733.02}
+		{xform zl -97.16}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "vitality"
+			{Dead}
+			{Health
+				{current 0}
+			}
+			{Stamina
+				{current 0}
+			}
+		}
+		{DisableObstacles}
+		{Player 0}
+		{MID 61}
+		{Able "-select" "-personage"}
+		{NameId 126 100}
+		{LastDyingAnimation "stand_die_front_4"}
+		{Attack 72 1 "mp/rus/late/antitank_6" 1 "pps43" "pps_stick ammo"}
+		{FsmState "dead"}
+	}
+	{Entity "k98" 0xa00b
+		{Position 58.64 -3739.1 45.69}
+		{xform zl -88.15 y 89.96 zw 25.95}
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "mp/ger/late/blau_2" 0xe009
+		{Position 314.53 -3731.85}
+		{xform zl -5.45 y 3.58 zw 5.28}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "vitality"
+			{Dead}
+			{Health
+				{current 0}
+			}
+			{Stamina
+				{current 0}
+			}
+		}
+		{DisableObstacles}
+		{Player 0}
+		{MID 62}
+		{Able "-select" "-personage"}
+		{NameId 107 55}
+		{LastDyingAnimation "stand_die_front_3"}
+		{Attack 71 1 "mp/rus/early/antitank_5" 1 "mosin" "rifle_rus clip ammo"}
+		{FsmState "dead"}
+	}
+	{Entity "k98" 0xe00a
+		{Position 282.72 -3747.96 47.73}
+		{xform zl -50.13 y 3.8 zw 133.03}
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "mp/ger/late/blau_2" 0x903a
+		{Position 936.58 -3665.42}
+		{xform zl 90 y 3.67 zw -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "vitality"
+			{Dead}
+			{Health
+				{current 0}
+			}
+			{Stamina
+				{current 0}
+			}
+		}
+		{DisableObstacles}
+		{Player 0}
+		{MID 63}
+		{Able "-select" "-personage"}
+		{NameId 17 63}
+		{LastDyingAnimation "stand_die_front_2"}
+		{Attack 70 1 "mp/rus/early/antitank_1" 1 "ptrd" "atrifle_rus ammo"}
+		{FsmState "dead"}
+	}
+	{Entity "k98" 0x903b
+		{Position 941.23 -3663.79 43.67}
+		{xform zl 179.13 y 5.35 zw -105.17}
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "mp/ger/late/blau_2" 0xd001
+		{Position 1274.31 -3507.96}
+		{xform zl 90 y 2.13 zw -90}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "vitality"
+			{Dead}
+			{Health
+				{current 0}
+			}
+			{Stamina
+				{current 0}
+			}
+		}
+		{DisableObstacles}
+		{Player 0}
+		{MID 64}
+		{Able "-select" "-personage"}
+		{NameId 28 91}
+		{LastDyingAnimation "stand_die_back_2"}
+		{Attack 70 1 "mp/rus/early/antitank_1" 1 "ptrd" "atrifle_rus ammo"}
+		{FsmState "dead"}
+	}
+	{Entity "k98" 0xd007
+		{Position 1322.58 -3495.28 55.19}
+		{xform zl 95.69 y 170.43 zw 104.24}
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Human "mp/ger/late/blau_2" 0xb000
+		{Position 1449.86 -3702.91}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Extender "vitality"
+			{Dead}
+			{Health
+				{current 0}
+			}
+			{Stamina
+				{current 0}
+			}
+		}
+		{DisableObstacles}
+		{Player 0}
+		{MID 65}
+		{Able "-select" "-personage"}
+		{NameId 101 11}
+		{LastDyingAnimation "stand_die_back_3"}
+		{Attack 71 1 "mp/rus/early/antitank_5" 1 "mosin" "rifle_rus clip ammo"}
+		{FsmState "dead"}
+	}
+	{Entity "k98" 0xb001
+		{Position 1488.86 -3700.43 41.08}
+		{xform zl -33.85 y 179.99 zw 0.46}
+		{Extender "stuff"
+			{Item "k98" filled 5}
+		}
+	}
+	{Entity "panzer3j1" 0xf002
+		{Position -547.95 -3732.06 46.07}
+		{xform zl -69.24 y 6.11 zw -34.21}
+		{Volume "detail1"
+			{disabled}
+		}
+		{Volume "detail21"
+			{disabled}
+		}
+		{Volume "detail3"
+			{disabled}
+		}
+		{Armor
+			{wounds
+				{damage "body1" 1.74398 1
+					{matrix
+						{pos -5.028 -19.096 -3.516}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{damage "trackleft3" 1.0547 1
+					{matrix
+						{pos -1.526 -2.408 -2.511}
+						{nxform 3.141 -2.463 -2.501}
+					}
+				}
+				{damage "body1" 0.995766 1
+					{matrix
+						{pos -19.781 -19.096 2.415}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{damage "ammo2" -2.1215 1
+					{matrix
+						{pos 3.198 -3.553 2.936}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{damage "trackleft4" -1.81575 1
+					{matrix
+						{pos 2.751 4.411 -2.511}
+						{nxform 3.141 -2.463 -2.501}
+					}
+				}
+				{damage "body2" 2.01371 1
+					{matrix
+						{pos -0.66 -17.226 0.853}
+						{nxform 1.57 1.586 -1.57}
+					}
+				}
+				{damage "trackleft" -0.0362264 1
+					{matrix
+						{pos 1.274 -3.55 10.2}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{wound "body1" -1.65504 1 60
+					{matrix
+						{pos -5.028 -19.096 -3.516}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{wound "trackleft3" -0.432463 1 60
+					{matrix
+						{pos -1.526 -2.408 -2.511}
+						{nxform 3.141 -2.463 -2.501}
+					}
+				}
+				{wound "body1" -2.44556 1 60
+					{matrix
+						{pos -19.781 -19.096 2.415}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{wound "trackleft4" -0.316114 1 60
+					{matrix
+						{pos 2.751 4.411 -2.511}
+						{nxform 3.141 -2.463 -2.501}
+					}
+				}
+				{wound "body2" -1.41104 1 60
+					{matrix
+						{pos -0.66 -17.226 0.853}
+						{nxform 1.57 1.586 -1.57}
+					}
+				}
+			}
+		}
+		{Placer
+			{State "seat1" {Disable}}
+			{State "seat2" {Disable}}
+			{State "seat3" {Disable}}
+			{State "seat4" {Disable}}
+		}
+		{Extender "enumerator"
+			{number 694}
+			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
+		}
+		{Player 0}
+		{MID 66}
+		{Able "-repaired" "-select" "-minimap"}
+		{Chassis
+			{Broken}
+			{FuelBag
+				{Remain 0}
+			}
+		}
+		{Component "body"
+			{State broken}
+			{Health 0}
+			{HealthBroken 2532.82}
+		}
+		{Component "engine"
+			{Health 155}
+		}
+		{Component "trackleft"
+			{State broken}
+			{Health 0}
+		}
+		{Component "ammo2"
+			{State destroyed}
+			{Health 0}
+			{HealthBroken 0}
+		}
+		{Component "transmission"
+			{State broken}
+			{Health 0}
+		}
+	}
+	{Entity "grenade_shellhole" 0x8800
+		{Position -593.27 -3742.86}
+		{xform scale 0.6}
+		{TexMod "snow"}
+		{DecalOrder 20}
+		{Fogable never}
+	}
+	{Entity "blitz3_6_art_ammo_xx" 0xc800
+		{Position 1175.06 -3773.61 41.11}
+		{xform zl -150.25}
+	}
+	{Entity "50mm_pak38_x" 0x9800
+		{Position 1260.79 -3724.25}
+		{xform zl 24.49}
+	}
+	{Entity "panzer3j1" 0x8016
+		{Position 551.71 -4132.75 20.9}
+		{xform zl -16.87 y 4.65 zw -49.08}
+		{Volume "detail3"
+			{disabled}
+		}
+		{Armor
+			{wounds
+				{damage "body1" 1.74398 1
+					{matrix
+						{pos -5.028 -19.096 -3.516}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{damage "trackleft3" 1.0547 1
+					{matrix
+						{pos -1.526 -2.408 -2.511}
+						{nxform 3.141 -2.463 -2.501}
+					}
+				}
+				{damage "body1" 0.995766 1
+					{matrix
+						{pos -19.781 -19.096 2.415}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{damage "ammo2" -2.1215 1
+					{matrix
+						{pos 3.198 -3.553 2.936}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{damage "trackleft4" -1.81575 1
+					{matrix
+						{pos 2.751 4.411 -2.511}
+						{nxform 3.141 -2.463 -2.501}
+					}
+				}
+				{damage "body2" 2.01371 1
+					{matrix
+						{pos -0.66 -17.226 0.853}
+						{nxform 1.57 1.586 -1.57}
+					}
+				}
+				{damage "trackleft" -0.0362264 1
+					{matrix
+						{pos 1.274 -3.55 10.2}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{wound "body1" -1.65504 1 60
+					{matrix
+						{pos -5.028 -19.096 -3.516}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{wound "trackleft3" -0.432463 1 60
+					{matrix
+						{pos -1.526 -2.408 -2.511}
+						{nxform 3.141 -2.463 -2.501}
+					}
+				}
+				{wound "body1" -2.44556 1 60
+					{matrix
+						{pos -19.781 -19.096 2.415}
+						{nxform 1.57 1.608 -1.57}
+					}
+				}
+				{wound "trackleft4" -0.316114 1 60
+					{matrix
+						{pos 2.751 4.411 -2.511}
+						{nxform 3.141 -2.463 -2.501}
+					}
+				}
+				{wound "body2" -1.41104 1 60
+					{matrix
+						{pos -0.66 -17.226 0.853}
+						{nxform 1.57 1.586 -1.57}
+					}
+				}
+			}
+		}
+		{Placer
+			{State "seat1" {Disable}}
+			{State "seat2" {Disable}}
+			{State "seat3" {Disable}}
+			{State "seat4" {Disable}}
+		}
+		{Extender "enumerator"
+			{number 223}
+			{digit_folder "ger"}
+		}
+		{Extender "detail"
+			{random}
+		}
+		{Player 0}
+		{MID 67}
+		{Able "-repaired" "-select" "-minimap"}
+		{Chassis
+			{Broken}
+			{FuelBag
+				{Remain 0}
+			}
+		}
+		{Component "body"
+			{State broken}
+			{Health 0}
+			{HealthBroken 2532.82}
+		}
+		{Component "engine"
+			{Health 155}
+		}
+		{Component "trackleft"
+			{State broken}
+			{Health 0}
+		}
+		{Component "ammo2"
+			{State destroyed}
+			{Health 0}
+			{HealthBroken 0}
+		}
+		{Component "transmission"
+			{State broken}
+			{Health 0}
+		}
+	}
+	{Entity "chair1_link" 0x8023
+		{Position -801.87 2219.17}
+		{xform zl 102.39}
+	}
+	{Entity "table3" 0x8025
+		{Position -802.54 2253.94}
+		{xform zl 100.9}
+	}
+	{Entity "m1911" 0xc009
+		{Position -801.27 2252.85 252.49}
+		{xform zl 132.5}
+	}
+	{Entity "tt33" 0xa00c
+		{Position -804.54 2256.37 253.08}
+		{xform zl -41.75}
+	}
+	{Human "mp/ger/mid/medic" 0x802b
+		{Position 5212.12 -558.47}
+		{xform zl -179.35 y 7.11 zw -22.83}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Simulation {Able 0}}
+		{Extender "heritage"
+			{Children
+				0x8024}
+		}
+		{DisableObstaclesEditor}
+		{Player 2}
+		{MID 71}
+		{NameId 132 49}
+	}
+	{Entity "blitz3_6" 0xd004
+		{Position 5199.04 -561.38}
+		{xform zl 110.64 y 7.11 zw -22.83}
+		{TexMod "medic_winter"}
+		{SpawnedInFog}
+		{Extender "detail"
+			{random}
+		}
+		{Player 2}
+		{MID 41}
+	}
+	{Entity "pointer" 0x8026
+		{Position 5209.35 -566.24}
+	}
+	{Link 0xd003 {0xd002 "gunner"}}
+	{Link 0xd005 {0xd002 "charger"}}
+	{Link 0xd006 {0xd002 "charger2"}}
+	{Link 0xd009 {0xd002 "commander"}}
+	{Link 0xc001 {0xc000 "gunner"}}
+	{Link 0xc002 {0xc000 "charger"}}
+	{Link 0xa004 {0xa006 "gunner"}}
+	{Link 0xa005 {0xa006 "charger"}}
+	{Link 0xc00d {0xc010 "gunner"}}
+	{Link 0xc00f {0xc010 "driver"}}
+	{Link 0xc00e {0xc010 "charger"}}
+	{Link 0xe003 {0xc010 "commander"}}
+	{Link 0xe005 {0x8005 "driver"}}
+	{Link 0x800d {0x8005 "commander"}}
+	{Link 0xe000 {0x8023 "seat"}}
+	{Link 0x802b {0xd004 "seat1"}}
+	{Tags "bare" 0x5011}
+	{Tags "bare" 0x2027}
+	{Tags "bare" 0x20c8}
+	{Tags "bare" 0x20d4}
+	{Tags "bare" 0x20d5}
+	{Tags "bare" 0x20d8}
+	{Tags "bare" 0x20d9}
+	{Tags "bare" 0x20da}
+	{Tags "bare" 0x20db}
+	{Tags "bare" 0x20dc}
+	{Tags "bare" 0x20df}
+	{Tags "bare" 0x20e0}
+	{Tags "bare" 0x20e1}
+	{Tags "bare" 0x20e2}
+	{Tags "bare" 0x20e5}
+	{Tags "bare" 0x20e6}
+	{Tags "bare" 0x20e7}
+	{Tags "bare" 0x20e8}
+	{Tags "bare" 0x20e9}
+	{Tags "bare" 0x20ea}
+	{Tags "bare" 0x20eb}
+	{Tags "bare" 0x20ec}
+	{Tags "bare" 0x20ed}
+	{Tags "bare" 0x20ee}
+	{Tags "bare" 0x20ef}
+	{Tags "bare" 0x20f0}
+	{Tags "bare" 0x20f1}
+	{Tags "bare" 0x20f2}
+	{Tags "bare" 0x20f3}
+	{Tags "bare" 0x20f4}
+	{Tags "bare" 0x20f5}
+	{Tags "bare" 0x20f6}
+	{Tags "bare" 0x20f7}
+	{Tags "bare" 0x20f8}
+	{Tags "bare" 0x20f9}
+	{Tags "bare" 0x2126}
+	{Tags "bare" 0x2127}
+	{Tags "bare" 0x2128}
+	{Tags "bare" 0x2129}
+	{Tags "bare" 0x212a}
+	{Tags "bare" 0x212b}
+	{Tags "bare" 0x212c}
+	{Tags "bare" 0x212d}
+	{Tags "bare" 0x212e}
+	{Tags "bare" 0x2130}
+	{Tags "bare" 0x2131}
+	{Tags "bare" 0x2132}
+	{Tags "bare" 0x2133}
+	{Tags "bare" 0x2134}
+	{Tags "bare" 0x133}
+	{Tags "bare" 0x134}
+	{Tags "bare" 0x135}
+	{Tags "bare" 0x136}
+	{Tags "bare" 0x40b5}
+	{Tags "bare" 0x40b7}
+	{Tags "bare" 0x40bb}
+	{Tags "bare" 0x40bc}
+	{Tags "bare" 0x40bd}
+	{Tags "bare" 0x2146}
+	{Tags "bare" 0x2147}
+	{Tags "bare" 0x2148}
+	{Tags "bare" 0x2149}
+	{Tags "bare" 0x214a}
+	{Tags "bare" 0x214b}
+	{Tags "bare" 0x214c}
+	{Tags "bare" 0x214d}
+	{Tags "bare" 0x214e}
+	{Tags "bare" 0x214f}
+	{Tags "bare" 0x2150}
+	{Tags "bare" 0x175}
+	{Tags "bare" 0x176}
+	{Tags "bare" 0x178}
+	{Tags "bare" 0x179}
+	{Tags "bare" 0x17a}
+	{Tags "bare" 0x17b}
+	{Tags "bare" 0x17c}
+	{Tags "bare" 0x17f}
+	{Tags "bare" 0x180}
+	{Tags "bare" 0x181}
+	{Tags "bare" 0x182}
+	{Tags "bare" 0x183}
+	{Tags "bare" 0x4036}
+	{Tags "bare" 0x403c}
+	{Tags "bare" 0x4041}
+	{Tags "bare" 0x4087}
+	{Tags "bare" 0x4088}
+	{Tags "bare" 0x4089}
+	{Tags "bare" 0x408a}
+	{Tags "bare" 0x408b}
+	{Tags "bare" 0x408c}
+	{Tags "bare" 0x408d}
+	{Tags "bare" 0x408e}
+	{Tags "bare" 0x408f}
+	{Tags "bare" 0x4090}
+	{Tags "bare" 0x4091}
+	{Tags "bare" 0x4092}
+	{Tags "bare" 0x4093}
+	{Tags "bare" 0x216a}
+	{Tags "bare" 0x1dc}
+	{Tags "bare" 0x177}
+	{Tags "bare" 0x60a7}
+	{Tags "bare" 0x60a8}
+	{Tags "bare" 0x60a9}
+	{Tags "bare" 0x60aa}
+	{Tags "bare" 0x60ab}
+	{Tags "bare" 0x60ac}
+	{Tags "bare" 0x60ad}
+	{Tags "bare" 0x60ae}
+	{Tags "bare" 0x60af}
+	{Tags "bare" 0x60b0}
+	{Tags "bare" 0x60b2}
+	{Tags "bare" 0x60b3}
+	{Tags "bare" 0x60b4}
+	{Tags "bare" 0x2270}
+	{Tags "bare" 0x2271}
+	{Tags "bare" 0x2272}
+	{Tags "bare" 0x2273}
+	{Tags "bare" 0x2288}
+	{Tags "bare" 0x2289}
+	{Tags "bare" 0x228a}
+	{Tags "bare" 0x228b}
+	{Tags "bare" 0x25e}
+	{Tags "bare" 0x25f}
+	{Tags "bare" 0x260}
+	{Tags "bare" 0x261}
+	{Tags "bare" 0x262}
+	{Tags "bare" 0x263}
+	{Tags "bare" 0x264}
+	{Tags "bare" 0x265}
+	{Tags "bare" 0x266}
+	{Tags "bare" 0x267}
+	{Tags "bare" 0x268}
+	{Tags "bare" 0x269}
+	{Tags "bare" 0x26f}
+	{Tags "bare" 0x270}
+	{Tags "bare" 0x271}
+	{Tags "bare" 0x272}
+	{Tags "bare" 0x273}
+	{Tags "bare" 0x275}
+	{Tags "bare" 0x276}
+	{Tags "bare" 0x277}
+	{Tags "bare" 0x278}
+	{Tags "bare" 0x40f8}
+	{Tags "bare" 0x40f9}
+	{Tags "bare" 0x40fa}
+	{Tags "bare" 0x40fc}
+	{Tags "bare" 0x40fd}
+	{Tags "bare" 0x40fe}
+	{Tags "bare" 0x40ff}
+	{Tags "bare" 0x4100}
+	{Tags "bare" 0x4101}
+	{Tags "bare" 0x4102}
+	{Tags "bare" 0x4103}
+	{Tags "bare" 0x4104}
+	{Tags "bare" 0x4105}
+	{Tags "bare" 0x410b}
+	{Tags "bare" 0x410c}
+	{Tags "bare" 0x410d}
+	{Tags "bare" 0x410e}
+	{Tags "bare" 0x4110}
+	{Tags "bare" 0x4111}
+	{Tags "bare" 0x4113}
+	{Tags "bare" 0x2179}
+	{Tags "bare" 0x217a}
+	{Tags "bare" 0x6094}
+	{Tags "bare" 0x6098}
+	{Tags "bare" 0x6099}
+	{Tags "bare" 0x609a}
+	{Tags "bare" 0x609b}
+	{Tags "bare" 0x60b1}
+	{Tags "bare" 0x60b5}
+	{Tags "bare" 0x60b6}
+	{Tags "bare" 0x60b7}
+	{Tags "bare" 0x60b8}
+	{Tags "bare" 0x60b9}
+	{Tags "bare" 0x60ba}
+	{Tags "bare" 0x60bd}
+	{Tags "bare" 0x60be}
+	{Tags "bare" 0x60bf}
+	{Tags "bare" 0x60c0}
+	{Tags "bare" 0x60c1}
+	{Tags "bare" 0x60c2}
+	{Tags "bare" 0x60c3}
+	{Tags "bare" 0x60c4}
+	{Tags "bare" 0x60c5}
+	{Tags "bare" 0x60c7}
+	{Tags "bare" 0x41e2}
+	{Tags "bare" 0x41ea}
+	{Tags "bare" 0x41f3}
+	{Tags "bare" 0x41f4}
+	{Tags "bare" 0x4203}
+	{Tags "bare" 0x2186}
+	{Tags "bare" 0x2187}
+	{Tags "bare" 0x228e}
+	{Tags "bare" 0x228f}
+	{Tags "bare" 0x2290}
+	{Tags "bare" 0x2291}
+	{Tags "bare" 0x60cc}
+	{Tags "bare" 0x60cd}
+	{Tags "bare" 0x60ce}
+	{Tags "bare" 0x2b5}
+	{Tags "bare" 0x2b6}
+	{Tags "bare" 0x2b7}
+	{Tags "bare" 0x2b8}
+	{Tags "bare" 0x2b9}
+	{Tags "bare" 0x2ba}
+	{Tags "bare" 0x2bb}
+	{Tags "bare" 0x2bc}
+	{Tags "bare" 0x2bd}
+	{Tags "bare" 0x2be}
+	{Tags "bare" 0x2bf}
+	{Tags "bare" 0x2c0}
+	{Tags "bare" 0x2c1}
+	{Tags "bare" 0x2c2}
+	{Tags "bare" 0x2c3}
+	{Tags "bare" 0x2c4}
+	{Tags "bare" 0x2c5}
+	{Tags "bare" 0x2c6}
+	{Tags "bare" 0x2c7}
+	{Tags "bare" 0x2c8}
+	{Tags "bare" 0x2c9}
+	{Tags "bare" 0x2ca}
+	{Tags "bare" 0x2cb}
+	{Tags "bare" 0x2cc}
+	{Tags "bare" 0x2cd}
+	{Tags "bare" 0x2ce}
+	{Tags "bare" 0x2cf}
+	{Tags "bare" 0x2d0}
+	{Tags "bare" 0x2d1}
+	{Tags "bare" 0x2d2}
+	{Tags "bare" 0x2d3}
+	{Tags "bare" 0x2d4}
+	{Tags "bare" 0x2d5}
+	{Tags "bare" 0x2d6}
+	{Tags "bare" 0x2d7}
+	{Tags "bare" 0x2d8}
+	{Tags "bare" 0x22a6}
+	{Tags "bare" 0x22aa}
+	{Tags "bare" 0x22ab}
+	{Tags "bare" 0x22ac}
+	{Tags "bare" 0x22ad}
+	{Tags "bare" 0x22ae}
+	{Tags "bare" 0x22af}
+	{Tags "bare" 0x22b0}
+	{Tags "bare" 0x22b2}
+	{Tags "bare" 0x22b4}
+	{Tags "bare" 0x22b5}
+	{Tags "bare" 0x22b6}
+	{Tags "bare" 0x22b7}
+	{Tags "bare" 0x22b8}
+	{Tags "bare" 0x60d2}
+	{Tags "bare" 0x60d3}
+	{Tags "bare" 0x60d4}
+	{Tags "bare" 0x60d5}
+	{Tags "bare" 0x60d6}
+	{Tags "bare" 0x22a0}
+	{Tags "bare" 0x22a1}
+	{Tags "bare" 0x22a2}
+	{Tags "bare" 0x22a3}
+	{Tags "bare" 0x22a9}
+	{Tags "bare" 0x22b1}
+	{Tags "bare" 0x22b3}
+	{Tags "bare" 0x22b9}
+	{Tags "bare" 0x22bb}
+	{Tags "bare" 0x22bc}
+	{Tags "bare" 0x22bd}
+	{Tags "bare" 0x22be}
+	{Tags "bare" 0x22bf}
+	{Tags "bare" 0x22c0}
+	{Tags "bare" 0x22c1}
+	{Tags "bare" 0x22c2}
+	{Tags "bare" 0x22c3}
+	{Tags "bare" 0x22c4}
+	{Tags "bare" 0x22c5}
+	{Tags "bare" 0x22c6}
+	{Tags "bare" 0x22c7}
+	{Tags "bare" 0x22c9}
+	{Tags "bare" 0x22ca}
+	{Tags "bare" 0x22cb}
+	{Tags "bare" 0x22cc}
+	{Tags "bare" 0x22cd}
+	{Tags "bare" 0x22ce}
+	{Tags "bare" 0x22cf}
+	{Tags "bare" 0xb6}
+	{Tags "bare" 0xb7}
+	{Tags "bare" 0x2f4}
+	{Tags "bare" 0x2f5}
+	{Tags "bare" 0x2f6}
+	{Tags "bare" 0x2f7}
+	{Tags "bare" 0x2f8}
+	{Tags "bare" 0x2f9}
+	{Tags "bare" 0x2fa}
+	{Tags "bare" 0x2fb}
+	{Tags "bare" 0x306}
+	{Tags "bare" 0x307}
+	{Tags "bare" 0x309}
+	{Tags "bare" 0x30a}
+	{Tags "bare" 0x336}
+	{Tags "bare" 0x337}
+	{Tags "bare" 0x338}
+	{Tags "bare" 0x339}
+	{Tags "bare" 0x33a}
+	{Tags "bare" 0x33b}
+	{Tags "bare" 0x33c}
+	{Tags "bare" 0x33d}
+	{Tags "bare" 0x394}
+	{Tags "bare" 0x39c}
+	{Tags "bare" 0x39f}
+	{Tags "bare" 0x41c3}
+	{Tags "bare" 0x41c4}
+	{Tags "bare" 0x41cd}
+	{Tags "bare" 0x41ce}
+	{Tags "bare" 0x303a}
+	{Tags "bare" 0x303b}
+	{Tags "bare" 0x303c}
+	{Tags "bare" 0x303d}
+	{Tags "bare" 0x303e}
+	{Tags "bare" 0x303f}
+	{Tags "bare" 0x3045}
+	{Tags "bare" 0x3046}
+	{Tags "bare" 0x3047}
+	{Tags "bare" 0x3048}
+	{Tags "bare" 0x3049}
+	{Tags "bare" 0x304f}
+	{Tags "bare" 0x3050}
+	{Tags "bare" 0x3051}
+	{Tags "bare" 0x3052}
+	{Tags "bare" 0x3053}
+	{Tags "bare" 0x3057}
+	{Tags "bare" 0x3058}
+	{Tags "bare" 0x7008}
+	{Tags "bare" 0x700b}
+	{Tags "bare" 0x4122}
+	{Tags "bare" 0x4128}
+	{Tags "bare" 0x420e}
+	{Tags "bare" 0x3b3}
+	{Tags "bare" 0x3b6}
+	{Tags "bare" 0x3b7}
+	{Tags "bare" 0x3b8}
+	{Tags "bare" 0x3b9}
+	{Tags "bare" 0x3ba}
+	{Tags "bare" 0x3bb}
+	{Tags "bare" 0x3bc}
+	{Tags "bare" 0x3bd}
+	{Tags "bare" 0x3be}
+	{Tags "bare" 0x3bf}
+	{Tags "bare" 0x3c6}
+	{Tags "bare" 0x3c7}
+	{Tags "bare" 0x3c8}
+	{Tags "bare" 0x3c9}
+	{Tags "bare" 0x3ca}
+	{Tags "bare" 0x3cb}
+	{Tags "bare" 0x3d0}
+	{Tags "bare" 0x3d3}
+	{Tags "bare" 0x3d4}
+	{Tags "bare" 0x3d8}
+	{Tags "bare" 0x3d9}
+	{Tags "bare" 0x3dc}
+	{Tags "bare" 0x6127}
+	{Tags "bare" 0x612b}
+	{Tags "bare" 0x614a}
+	{Tags "bare" 0x614c}
+	{Tags "bare" 0x614e}
+	{Tags "bare" 0x6153}
+	{Tags "bare" 0x6154}
+	{Tags "bare" 0x22f2}
+	{Tags "bare" 0x230d}
+	{Tags "bare" 0x4231}
+	{Tags "bare" 0x4241}
+	{Tags "bare" 0x4242}
+	{Tags "bare" 0x4243}
+	{Tags "bare" 0x4254}
+	{Tags "bare" 0x427a}
+	{Tags "bare" 0x7042}
+	{Tags "bare" 0x7048}
+	{Tags "bare" 0x704c}
+	{Tags "bare" 0x704d}
+	{Tags "bare" 0x704e}
+	{Tags "bare" 0x704f}
+	{Tags "bare" 0x7051}
+	{Tags "bare" 0x7052}
+	{Tags "bare" 0x7053}
+	{Tags "bare" 0x7054}
+	{Tags "bare" 0x7055}
+	{Tags "bare" 0x7057}
+	{Tags "bare" 0x7058}
+	{Tags "bare" 0x7059}
+	{Tags "bare" 0x4292}
+	{Tags "bare" 0x4293}
+	{Tags "bare" 0x4295}
+	{Tags "bare" 0x4296}
+	{Tags "bare" 0x4297}
+	{Tags "bare" 0x4298}
+	{Tags "bare" 0x4299}
+	{Tags "bare" 0x429b}
+	{Tags "bare" 0x429e}
+	{Tags "bare" 0x42a7}
+	{Tags "bare" 0x3f2}
+	{Tags "bare" 0x3f3}
+	{Tags "bare" 0x410}
+	{Tags "bare" 0x411}
+	{Tags "bare" 0x439}
+	{Tags "bare" 0x43e}
+	{Tags "bare" 0x43f}
+	{Tags "bare" 0x441}
+	{Tags "bare" 0x442}
+	{Tags "bare" 0x443}
+	{Tags "bare" 0x444}
+	{Tags "bare" 0x452}
+	{Tags "bare" 0x472}
+	{Tags "bare" 0x473}
+	{Tags "bare" 0x474}
+	{Tags "bare" 0x476}
+	{Tags "bare" 0x477}
+	{Tags "bare" 0x478}
+	{Tags "bare" 0x47b}
+	{Tags "bare" 0x510f}
+	{Tags "bare" 0x5110}
+	{Tags "bare" 0x5111}
+	{Tags "bare" 0x5112}
+	{Tags "bare" 0x5113}
+	{Tags "bare" 0x5114}
+	{Tags "bare" 0x5122}
+	{Tags "bare" 0x5126}
+	{Tags "bare" 0x5127}
+	{Tags "bare" 0x512c}
+	{Tags "bare" 0x231f}
+	{Tags "bare" 0x103c}
+	{Tags "bare" 0x1067}
+	{Tags "bare" 0x232e}
+	{Tags "bare" 0x232f}
+	{Tags "bare" 0x2332}
+	{Tags "bare" 0x2333}
+	{Tags "bare" 0x2334}
+	{Tags "bare" 0x2335}
+	{Tags "bare" 0x2336}
+	{Tags "bare" 0x2337}
+	{Tags "bare" 0x2338}
+	{Tags "bare" 0x2339}
+	{Tags "bare" 0x233a}
+	{Tags "bare" 0x233b}
+	{Tags "bare" 0x233c}
+	{Tags "bare" 0x612f}
+	{Tags "bare" 0x6132}
+	{Tags "bare" 0x6133}
+	{Tags "bare" 0x6134}
+	{Tags "bare" 0x6135}
+	{Tags "bare" 0x6136}
+	{Tags "bare" 0x6137}
+	{Tags "bare" 0x6138}
+	{Tags "bare" 0x6159}
+	{Tags "bare" 0x615d}
+	{Tags "bare" 0x42f9}
+	{Tags "bare" 0x42fa}
+	{Tags "bare" 0x42fb}
+	{Tags "bare" 0x42fc}
+	{Tags "bare" 0x2350}
+	{Tags "bare" 0x2351}
+	{Tags "bare" 0x2352}
+	{Tags "bare" 0x610b}
+	{Tags "bare" 0x610c}
+	{Tags "bare" 0x4f9}
+	{Tags "bare" 0x503b}
+	{Tags "bare" 0x3078}
+	{Tags "bare" 0x3079}
+	{Tags "bare" 0x431f}
+	{Tags "bare" 0x2ee}
+	{Tags "bare" 0x4326}
+	{Tags "bare" 0x4f0}
+	{Tags "bare" 0x4f2}
+	{Tags "bare" 0x4ff}
+	{Tags "bare" 0x50e}
+	{Tags "bare" 0x521}
+	{Tags "bare" 0x523}
+	{Tags "bare" 0x525}
+	{Tags "bare" 0x526}
+	{Tags "bare" 0x4327}
+	{Tags "bare" 0x4818}
+	{Tags "bare" 0x4819}
+	{Tags "bare" 0x481c}
+	{Tags "bare" 0x545}
+	{Tags "bare" 0x308a}
+	{Tags "bare" 0x4385}
+	{Tags "bare" 0x4386}
+	{Tags "bare" 0x4387}
+	{Tags "bare" 0x4388}
+	{Tags "bare" 0x235c}
+	{Tags "bare" 0x581}
+	{Tags "bare" 0x22e0}
+	{Tags "bare" 0x236a}
+	{Tags "bare" 0x3843}
+	{Tags "bare" 0x41d}
+	{Tags "bare" 0x601f}
+	{Tags "bare" 0x6020}
+	{Tags "bare" 0x6021}
+	{Tags "bare" 0x6023}
+	{Tags "bare" 0x6024}
+	{Tags "bare" 0x6028}
+	{Tags "bare" 0x6029}
+	{Tags "bare" 0x602b}
+	{Tags "bare" 0x602c}
+	{Tags "bare" 0x602e}
+	{Tags "bare" 0x602f}
+	{Tags "bare" 0x6031}
+	{Tags "bare" 0x6032}
+	{Tags "bare" 0x6035}
+	{Tags "bare" 0x6037}
+	{Tags "bare" 0x6038}
+	{Tags "bare" 0x6061}
+	{Tags "bare" 0x647}
+	{Tags "bare" 0x43d9}
+	{Tags "bare" 0x43e0}
+	{Tags "bare" 0x2109}
+	{Tags "bare" 0x68b}
+	{Tags "bare" 0x2404}
+	{Tags "bare" 0x2410}
+	{Tags "bare" 0x2411}
+	{Tags "bare" 0x2412}
+	{Tags "bare" 0x2413}
+	{Tags "bare" 0x2414}
+	{Tags "bare" 0x241c}
+	{Tags "bare" 0x7006}
+	{Tags "bare" 0x43fc}
+	{Tags "bare" 0x43fd}
+	{Tags "bare" 0x4417}
+	{Tags "bare" 0x4419}
+	{Tags "bare" 0x61ba}
+	{Tags "bare" 0x61bc}
+	{Tags "bare" 0x1165}
+	{Tags "bare" 0x116c}
+	{Tags "bare" 0x6b2}
+	{Tags "bare" 0x6b3}
+	{Tags "bare" 0x384d}
+	{Tags "bare" 0x4434}
+	{Tags "bare" 0x4435}
+	{Tags "bare" 0x4436}
+	{Tags "bare" 0x4443}
+	{Tags "bare" 0x4444}
+	{Tags "bare" 0x4445}
+	{Tags "bare" 0x4446}
+	{Tags "bare" 0x4447}
+	{Tags "bare" 0x4448}
+	{Tags "bare" 0x4449}
+	{Tags "bare" 0x4465}
+	{Tags "bare" 0x4466}
+	{Tags "bare" 0x72f}
+	{Tags "bare" 0x6c9}
+	{Tags "bare" 0x6d2}
+	{Tags "bare" 0x6d5}
+	{Tags "bare" 0x6d6}
+	{Tags "bare" 0x746}
+	{Tags "bare" 0x74b}
+	{Tags "bare" 0x74f}
+	{Tags "bare" 0x750}
+	{Tags "bare" 0x751}
+	{Tags "bare" 0x753}
+	{Tags "bare" 0x759}
+	{Tags "bare" 0x75b}
+	{Tags "bare" 0x75c}
+	{Tags "bare" 0x768}
+	{Tags "bare" 0x769}
+	{Tags "bare" 0x76b}
+	{Tags "bare" 0x76c}
+	{Tags "bare" 0x76d}
+	{Tags "bare" 0x5021}
+	{Tags "bare" 0x5022}
+	{Tags "bare" 0x5026}
+	{Tags "bare" 0x502c}
+	{Tags "bare" 0x502d}
+	{Tags "bare" 0x502e}
+	{Tags "bare" 0x502f}
+	{Tags "bare" 0x507d}
+	{Tags "bare" 0x50bf}
+	{Tags "bare" 0x30b5}
+	{Tags "bare" 0x30ba}
+	{Tags "bare" 0x30bb}
+	{Tags "bare" 0x407c}
+	{Tags "bare" 0x4246}
+	{Tags "bare" 0x4259}
+	{Tags "bare" 0x427c}
+	{Tags "bare" 0x427d}
+	{Tags "bare" 0x2447}
+	{Tags "bare" 0x2448}
+	{Tags "bare" 0x2449}
+	{Tags "bare" 0x244a}
+	{Tags "bare" 0x244b}
+	{Tags "bare" 0x244c}
+	{Tags "bare" 0x61ec}
+	{Tags "bare" 0x61ff}
+	{Tags "bare" 0x6200}
+	{Tags "bare" 0x6201}
+	{Tags "bare" 0x6202}
+	{Tags "bare" 0x6203}
+	{Tags "bare" 0x6204}
+	{Tags "bare" 0x6205}
+	{Tags "bare" 0x6206}
+	{Tags "bare" 0x6207}
+	{Tags "bare" 0x6208}
+	{Tags "bare" 0x6209}
+	{Tags "bare" 0x620a}
+	{Tags "bare" 0x620b}
+	{Tags "bare" 0x620d}
+	{Tags "bare" 0x6214}
+	{Tags "bare" 0x6219}
+	{Tags "bare" 0x6229}
+	{Tags "bare" 0x6234}
+	{Tags "bare" 0x6235}
+	{Tags "bare" 0x6236}
+	{Tags "bare" 0x6237}
+	{Tags "bare" 0x6238}
+	{Tags "bare" 0x6239}
+	{Tags "bare" 0x623a}
+	{Tags "bare" 0x623b}
+	{Tags "bare" 0x623c}
+	{Tags "bare" 0x6242}
+	{Tags "bare" 0x6243}
+	{Tags "bare" 0x6244}
+	{Tags "bare" 0x6245}
+	{Tags "bare" 0x6248}
+	{Tags "bare" 0x627d}
+	{Tags "bare" 0x4132}
+	{Tags "bare" 0x4134}
+	{Tags "bare" 0x852}
+	{Tags "bare" 0x85a}
+	{Tags "bare" 0x88e}
+	{Tags "bare" 0x24fc}
+	{Tags "bare" 0x251f}
+	{Tags "bare" 0x5146}
+	{Tags "bare" 0x631d}
+	{Tags "bare" 0x3c2}
+	{Tags "bare" 0x3c4}
+	{Tags "bare" 0x305b}
+	{Tags "bare" 0x7063}
+	{Tags "bare" 0x706f}
+	{Tags "bare" 0x7070}
+	{Tags "bare" 0x7071}
+	{Tags "bare" 0x7072}
+	{Tags "bare" 0x7073}
+	{Tags "bare" 0x7077}
+	{Tags "bare" 0x7078}
+	{Tags "bare" 0x7079}
+	{Tags "bare" 0x709c}
+	{Tags "bare" 0x709d}
+	{Tags "bare" 0x70a3}
+	{Tags "bare" 0x70a4}
+	{Tags "bare" 0x2107}
+	{Tags "bare" 0x2108}
+	{Tags "bare" 0x4490}
+	{Tags "bare" 0x4491}
+	{Tags "bare" 0x4492}
+	{Tags "bare" 0x4493}
+	{Tags "bare" 0x4495}
+	{Tags "bare" 0x4497}
+	{Tags "bare" 0x4498}
+	{Tags "bare" 0x4499}
+	{Tags "bare" 0x449a}
+	{Tags "bare" 0x51de}
+	{Tags "bare" 0x111}
+	{Tags "bare" 0x51ff}
+	{Tags "bare" 0x5201}
+	{Tags "bare" 0x70ad}
+	{Tags "bare" 0x70ae}
+	{Tags "bare" 0x70b7}
+	{Tags "bare" 0x70b9}
+	{Tags "bare" 0x683c}
+	{Tags "bare" 0x683d}
+	{Tags "bare" 0x683e}
+	{Tags "bare" 0x8f8}
+	{Tags "bare" 0x8f9}
+	{Tags "bare" 0x909}
+	{Tags "bare" 0x931}
+	{Tags "bare" 0x5210}
+	{Tags "bare" 0x5212}
+	{Tags "bare" 0x5214}
+	{Tags "bare" 0x521b}
+	{Tags "bare" 0x521c}
+	{Tags "bare" 0x23b6}
+	{Tags "bare" 0x23b7}
+	{Tags "bare" 0x23c5}
+	{Tags "bare" 0x23cb}
+	{Tags "bare" 0x23cd}
+	{Tags "bare" 0x3118}
+	{Tags "bare" 0x311a}
+	{Tags "bare" 0x311b}
+	{Tags "bare" 0x3131}
+	{Tags "bare" 0x3147}
+	{Tags "bare" 0x3148}
+	{Tags "bare" 0x3149}
+	{Tags "bare" 0x314a}
+	{Tags "bare" 0x27}
+	{Tags "bare" 0x28}
+	{Tags "bare" 0xf0}
+	{Tags "bare" 0xfc}
+	{Tags "bare" 0x44bd}
+	{Tags "bare" 0x44be}
+	{Tags "bare" 0x70d0}
+	{Tags "bare" 0x642c}
+	{Tags "bare" 0x642e}
+	{Tags "bare" 0x998}
+	{Tags "bare" 0xb68}
+	{Tags "bare" 0x701c}
+	{Tags "bare" 0x2072}
+	{Tags "bare" 0x2073}
+	{Tags "bare" 0x2074}
+	{Tags "bare" 0x5078}
+	{Tags "bare" 0x5079}
+	{Tags "bare" 0x507a}
+	{Tags "bare" 0x507c}
+	{Tags "bare" 0x507e}
+	{Tags "bare" 0x400e}
+	{Tags "bare" 0x402b}
+	{Tags "bare" 0x402e}
+	{Tags "bare" 0x402f}
+	{Tags "bare" 0x406e}
+	{Tags "bare" 0x1015}
+	{Tags "bare" 0x101c}
+	{Tags "bare" 0x101f}
+	{Tags "bare" 0x1025}
+	{Tags "bare" 0x70ea}
+	{Tags "bare" 0x70eb}
+	{Tags "bare" 0x70ec}
+	{Tags "bare" 0x70ee}
+	{Tags "bare" 0x1014}
+	{Tags "bare" 0x283f}
+	{Tags "bare" 0x2840}
+	{Tags "bare" 0x2841}
+	{Tags "bare" 0x2842}
+	{Tags "bare" 0x2846}
+	{Tags "bare" 0x2847}
+	{Tags "bare" 0x2848}
+	{Tags "bare" 0x2849}
+	{Tags "bare" 0x50a6}
+	{Tags "bare" 0x5145}
+	{Tags "bare" 0x311d}
+	{Tags "bare" 0x312c}
+	{Tags "bare" 0x314d}
+	{Tags "bare" 0x314e}
+	{Tags "bare" 0x314f}
+	{Tags "bare" 0x3150}
+	{Tags "bare" 0x315e}
+	{Tags "bare" 0x3187}
+	{Tags "bare" 0x3190}
+	{Tags "bare" 0x3191}
+	{Tags "bare" 0x3192}
+	{Tags "bare" 0x3193}
+	{Tags "bare" 0x319b}
+	{Tags "bare" 0x31b4}
+	{Tags "bare" 0x31b8}
+	{Tags "bare" 0x514b}
+	{Tags "bare" 0x514c}
+	{Tags "bare" 0x284c}
+	{Tags "bare" 0x6473}
+	{Tags "bare" 0x6474}
+	{Tags "bare" 0x20b1}
+	{Tags "bare" 0x20b2}
+	{Tags "bare" 0x20b6}
+	{Tags "bare" 0x20ba}
+	{Tags "bare" 0x5159}
+	{Tags "bare" 0x40a8}
+	{Tags "bare" 0x5161}
+	{Tags "bare" 0x51fa}
+	{Tags "bare" 0xbc3}
+	{Tags "bare" 0xbc4}
+	{Tags "bare" 0xbc5}
+	{Tags "bare" 0xbc6}
+	{Tags "bare" 0xbc7}
+	{Tags "bare" 0x40fb}
+	{Tags "bare" 0x40f7}
+	{Tags "bare" 0x22c8}
+	{Tags "bare" 0x22d0}
+	{Tags "bare" 0x332}
+	{Tags "bare" 0x334}
+	{Tags "bare" 0x3fa}
+	{Tags "bare" 0xbd7}
+	{Tags "bare" 0x450f}
+	{Tags "bare" 0x454a}
+	{Tags "bare" 0x45e7}
+	{Tags "bare" 0x45f9}
+	{Tags "bare" 0x460a}
+	{Tags "bare" 0x465d}
+	{Tags "bare" 0x465e}
+	{Tags "bare" 0x2689}
+	{Tags "bare" 0x268a}
+	{Tags "bare" 0x268b}
+	{Tags "bare" 0x268f}
+	{Tags "bare" 0x2690}
+	{Tags "bare" 0x26a4}
+	{Tags "bare" 0x26a5}
+	{Tags "bare" 0x26ac}
+	{Tags "bare" 0x26ad}
+	{Tags "bare" 0x7135}
+	{Tags "bare" 0x7147}
+	{Tags "bare" 0x7150}
+	{Tags "bare" 0x7151}
+	{Tags "bare" 0x7152}
+	{Tags "bare" 0x7153}
+	{Tags "bare" 0x7156}
+	{Tags "bare" 0x7165}
+	{Tags "bare" 0x7166}
+	{Tags "bare" 0x7168}
+	{Tags "bare" 0x48a2}
+	{Tags "bare" 0x48b0}
+	{Tags "bare" 0x48bb}
+	{Tags "bare" 0x48d7}
+	{Tags "bare" 0x48e5}
+	{Tags "bare" 0x48ec}
+	{Tags "bare" 0x48ed}
+	{Tags "bare" 0x48ee}
+	{Tags "bare" 0x48ef}
+	{Tags "bare" 0x4903}
+	{Tags "bare" 0x492d}
+	{Tags "bare" 0x492e}
+	{Tags "bare" 0x493a}
+	{Tags "bare" 0x26b4}
+	{Tags "bare" 0x26c0}
+	{Tags "bare" 0x26c1}
+	{Tags "bare" 0x52}
+	{Tags "bare" 0x53}
+	{Tags "bare" 0x55}
+	{Tags "bare" 0x56}
+	{Tags "bare" 0x467f}
+	{Tags "bare" 0x4680}
+	{Tags "bare" 0x4681}
+	{Tags "bare" 0x4682}
+	{Tags "bare" 0x4683}
+	{Tags "bare" 0x4684}
+	{Tags "bare" 0x4685}
+	{Tags "bare" 0x4687}
+	{Tags "bare" 0x4688}
+	{Tags "bare" 0x4689}
+	{Tags "bare" 0x468a}
+	{Tags "bare" 0x468b}
+	{Tags "bare" 0x468c}
+	{Tags "bare" 0x6502}
+	{Tags "bare" 0x6516}
+	{Tags "bare" 0x6518}
+	{Tags "bare" 0x652d}
+	{Tags "bare" 0x652e}
+	{Tags "bare" 0x653b}
+	{Tags "bare" 0x6552}
+	{Tags "bare" 0x6553}
+	{Tags "bare" 0x6554}
+	{Tags "bare" 0x656b}
+	{Tags "bare" 0x656c}
+	{Tags "bare" 0x656d}
+	{Tags "bare" 0x10ca}
+	{Tags "bare" 0x1218}
+	{Tags "bare" 0x1219}
+	{Tags "bare" 0x1223}
+	{Tags "bare" 0x469c}
+	{Tags "bare" 0x469d}
+	{Tags "bare" 0x469e}
+	{Tags "bare" 0x469f}
+	{Tags "bare" 0x46ae}
+	{Tags "bare" 0x46af}
+	{Tags "bare" 0x46b6}
+	{Tags "bare" 0x46ce}
+	{Tags "bare" 0x46cf}
+	{Tags "bare" 0x717d}
+	{Tags "bare" 0x63b9}
+	{Tags "bare" 0x63ba}
+	{Tags "bare" 0x5258}
+	{Tags "bare" 0x5259}
+	{Tags "bare" 0x525b}
+	{Tags "bare" 0x16f}
+	{Tags "bare" 0x684a}
+	{Tags "bare" 0x6854}
+	{Tags "bare" 0x6856}
+	{Tags "bare" 0x685c}
+	{Tags "bare" 0x685d}
+	{Tags "bare" 0x685e}
+	{Tags "bare" 0x611c}
+	{Tags "bare" 0x254}
+	{Tags "bare" 0x2707}
+	{Tags "bare" 0x95a}
+	{Tags "bare" 0x973}
+	{Tags "bare" 0x974}
+	{Tags "bare" 0x976}
+	{Tags "bare" 0x9ad}
+	{Tags "bare" 0x9ae}
+	{Tags "bare" 0x9c0}
+	{Tags "bare" 0x9c1}
+	{Tags "bare" 0x9c2}
+	{Tags "bare" 0x71a3}
+	{Tags "bare" 0x71a4}
+	{Tags "bare" 0x1233}
+	{Tags "bare" 0x2734}
+	{Tags "bare" 0x2735}
+	{Tags "bare" 0x2736}
+	{Tags "bare" 0x2737}
+	{Tags "bare" 0x2748}
+	{Tags "bare" 0x2750}
+	{Tags "bare" 0x2774}
+	{Tags "bare" 0x277c}
+	{Tags "bare" 0x6c1b}
+	{Tags "bare" 0x6c1f}
+	{Tags "bare" 0xa3}
+	{Tags "bare" 0x5064}
+	{Tags "bare" 0x526d}
+	{Tags "bare" 0x529c}
+	{Tags "bare" 0x529d}
+	{Tags "bare" 0x2087}
+	{Tags "bare" 0x404c}
+	{Tags "bare" 0x404d}
+	{Tags "bare" 0x404f}
+	{Tags "bare" 0x4050}
+	{Tags "bare" 0x4058}
+	{Tags "bare" 0x405a}
+	{Tags "bare" 0x405b}
+	{Tags "bare" 0x405c}
+	{Tags "bare" 0x405e}
+	{Tags "bare" 0x27af}
+	{Tags "bare" 0x27b0}
+	{Tags "bare" 0x27b2}
+	{Tags "bare" 0x27b3}
+	{Tags "bare" 0x27b4}
+	{Tags "bare" 0x27b9}
+	{Tags "bare" 0x27bd}
+	{Tags "bare" 0x27bf}
+	{Tags "bare" 0x27c1}
+	{Tags "bare" 0x27c2}
+	{Tags "bare" 0x27c3}
+	{Tags "bare" 0x27c4}
+	{Tags "bare" 0x27c5}
+	{Tags "bare" 0x27c6}
+	{Tags "bare" 0x124d}
+	{Tags "bare" 0x52b3}
+	{Tags "bare" 0x52bb}
+	{Tags "bare" 0x52bd}
+	{Tags "bare" 0x76f}
+	{Tags "bare" 0x771}
+	{Tags "bare" 0x778}
+	{Tags "bare" 0x77b}
+	{Tags "bare" 0x77c}
+	{Tags "bare" 0x77d}
+	{Tags "bare" 0x77e}
+	{Tags "bare" 0x780}
+	{Tags "bare" 0x784}
+	{Tags "bare" 0x785}
+	{Tags "bare" 0x786}
+	{Tags "bare" 0x787}
+	{Tags "bare" 0x9f9}
+	{Tags "bare" 0x766}
+	{Tags "bare" 0x6429}
+	{Tags "bare" 0x6435}
+	{Tags "bare" 0x6436}
+	{Tags "bare" 0x3133}
+	{Tags "bare" 0x3135}
+	{Tags "bare" 0x3136}
+	{Tags "bare" 0x314b}
+	{Tags "bare" 0x2075}
+	{Tags "bare" 0x1020}
+	{Tags "bare" 0x5224}
+	{Tags "bare" 0x3fc}
+	{Tags "bare" 0x7169}
+	{Tags "bare" 0x54}
+	{Tags "bare" 0x6517}
+	{Tags "bare" 0x975}
+	{Tags "bare" 0x77f}
+	{Tags "bare" 0xb1b}
+	{Tags "bare" 0xb1c}
+	{Tags "bare" 0xb1e}
+	{Tags "bare" 0xb1f}
+	{Tags "bare" 0xb2a}
+	{Tags "bare" 0xb2b}
+	{Tags "bare" 0xb86}
+	{Tags "bare" 0xb87}
+	{Tags "bare" 0xc3e}
+	{Tags "bare" 0xc3f}
+	{Tags "bare" 0xcad}
+	{Tags "bare" 0xcae}
+	{Tags "bare" 0xcaf}
+	{Tags "bare" 0xcb2}
+	{Tags "bare" 0x4798}
+	{Tags "bare" 0x4799}
+	{Tags "bare" 0xcff}
+	{Tags "bare" 0xd00}
+	{Tags "bare" 0xd01}
+	{Tags "bare" 0x3272}
+	{Tags "bare" 0x65ff}
+	{Tags "bare" 0x6605}
+	{Tags "bare" 0x6609}
+	{Tags "bare" 0x660a}
+	{Tags "bare" 0x660b}
+	{Tags "bare" 0x660c}
+	{Tags "bare" 0x32a4}
+	{Tags "bare" 0x725a}
+	{Tags "bare" 0xe69}
+	{Tags "bare" 0xe6a}
+	{Tags "bare" 0xe70}
+	{Tags "bare" 0xe71}
+	{Tags "bare" 0xe72}
+	{Tags "bare" 0x42d8}
+	{Tags "bare" 0x42d9}
+	{Tags "bare" 0x42da}
+	{Tags "bare" 0x42db}
+	{Tags "bare" 0x4300}
+	{Tags "bare" 0x4301}
+	{Tags "bare" 0x4303}
+	{Tags "bare" 0x49ec}
+	{Tags "bare" 0x4b7b}
+	{Tags "bare" 0xed7}
+	{Tags "bare" 0xed8}
+	{Tags "bare" 0xedb}
+	{Tags "bare" 0xedc}
+	{Tags "bare" 0xee3}
+	{Tags "bare" 0xee6}
+	{Tags "bare" 0x6611}
+	{Tags "bare" 0x6612}
+	{Tags "bare" 0x450e}
+	{Tags "bare" 0x4bbd}
+	{Tags "bare" 0x4bbe}
+	{Tags "bare" 0x4bbf}
+	{Tags "bare" 0x4bc0}
+	{Tags "bare" 0x4bc1}
+	{Tags "bare" 0x2c2e}
+	{Tags "bare" 0x2c2f}
+	{Tags "bare" 0x1289}
+	{Tags "bare" 0x128a}
+	{Tags "bare" 0x128b}
+	{Tags "bare" 0x128c}
+	{Tags "bare" 0xabb}
+	{Tags "bare" 0x724a}
+	{Tags "bare" 0x4c5e}
+	{Tags "bare" 0x4c62}
+	{Tags "bare" 0x4c63}
+	{Tags "bare" 0xfcb}
+	{Tags "bare" 0xfcc}
+	{Tags "bare" 0xfd3}
+	{Tags "drunkmedics" 0xa000}
+	{Tags "alexandr" 0xd000}
+	{Tags "pak40andsayguy" 0xd002}
+	{Tags "pak40andsayguy" 0xd003}
+	{Tags "pak40andsayguy" 0xd005}
+	{Tags "pak40andsayguy" 0xd006}
+	{Tags "pak40andsayguy" 0xd009}
+	{Tags "sayguy" "pak40andsayguy" 0xd00a}
+	{Tags "garold" 0xa003}
+	{Tags "hogguy" 0xa007}
+	{Tags "sitguy" 0xe001}
+	{Tags "is2" 0xc010}
+	{Tags "is2commander" 0xe003}
+	{Tags "engine_turned_off" 0x8005}
+	{Tags "drunkmedics_2" 0xd008}
+	{Tags "pointer" "newmedical" 0xc05d}
+	{Tags "pointer" "oldmedical" 0x8021}
+	{Tags "pointer" "hidden_grug_zone" 0x8022}
+	{Tags "pointer" "secretstash" 0xc006}
+	{Tags "medical_moto" "_no-recrew" 0x8013}
+	{Tags "pak40andsayguy" 0xa009}
+	{Tags "_bleedout_" 0x8014}
+	{Tags "_bleedout_" 0xc007}
+	{Tags "_bleedout_" 0xa00a}
+	{Tags "_bleedout_" 0xe009}
+	{Tags "_bleedout_" 0x903a}
+	{Tags "_bleedout_" 0xd001}
+	{Tags "_bleedout_" 0xb000}
+	{Tags "deactivated" "body_break" "turret_stopped_by_body" "death_counter_start" "ammo_cooked" "no_scavenge" "engine_turned_off" "slow_cookoff" "death_counter_3" "ammo_cooked2" 0xf002}
+	{Tags "deactivated" "body_break" "turret_stopped_by_body" "death_counter_start" "ammo_cooked" "no_scavenge" "engine_turned_off" "slow_cookoff" "death_counter_3" "ammo_cooked2" 0x8016}
+	{Tags "drunkmedics_2" 0x802b}
+	{Tags "drunkmedics_car" 0xd004}
+	{Tags "pointer" "mediccar_pointer" 0x8026}
+	{Inventory 0xa000
+		{box
+			{clear}
+			{item "luger" filled {cell 0 0}}
+			{item "pistol" "ammo" 18 {cell 3 0}}
+			{item "m24_smoke" "grenade" {cell 5 0}}
+			{item "m24_smoke" "grenade" {cell 0 1}}
+			{item "m24_smoke" "grenade" {cell 3 1}}
+			{item "bandage_ger" {cell 6 1}}
+			{item "bandage_ger" {cell 0 2}}
+			{item "bandage_ger" {cell 2 2}}
+			{item "bandage_ger" {cell 4 2}}
+			{item "bandage_ger" {cell 6 2}}
+			{item "bandage_ger" {cell 0 3}}
+			{item "bandage_ger" {cell 2 3}}
+			{item "bandage_ger" {cell 4 3}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 4 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "ger_stalhelm_m43_medic_var2" {cell 0 4}{user "head"}}
+			{item "secret_doc_bag3" {cell 0 10}}
+		}
+	}
+	{Inventory 0xd000
+		{box
+			{clear}
+			{item "luger" filled {cell 0 0}}
+			{item "bandage_ger" {cell 3 0}}
+			{item "bandage_ger" {cell 5 0}}
+			{item "bandage_ger" {cell 0 1}}
+			{item "pistol" "ammo" 20 {cell 2 1}}
+			{item "knife_ger" {cell 4 1}}
+			{item "binocular" {cell 0 2}}
+			{item "ger_crusher_cap" {cell 2 2}{user "head"}}
+		}
+	}
+	{Inventory 0xd003
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 30 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "bandage_ger" {cell 0 1}}
+			{item "ger_m34_sidecap" {cell 2 1}{user "head"}}
+		}
+	}
+	{Inventory 0xd005
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 30 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "ger_m34_sidecap" {cell 0 1}{user "head"}}
+		}
+	}
+	{Inventory 0xd006
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 32 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "ger_m34_sidecap" {cell 0 1}{user "head"}}
+		}
+	}
+	{Inventory 0xd009
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 17 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "bandage_ger" {cell 0 1}}
+			{item "ger_m34_sidecap" {cell 2 1}{user "head"}}
+		}
+	}
+	{Inventory 0xd00a
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 26 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "ger_m34_sidecap" {cell 0 1}{user "head"}}
+		}
+	}
+	{Inventory 0xa003
+		{box
+			{clear}
+			{item "luger" filled {cell 0 0}}
+			{item "bandage_ger" {cell 3 0}}
+			{item "bandage_ger" {cell 5 0}}
+			{item "bandage_ger" {cell 0 1}}
+			{item "pistol" "ammo" 24 {cell 2 1}}
+			{item "knife_ger" {cell 4 1}}
+			{item "binocular" {cell 0 2}}
+			{item "ger_crusher_cap" {cell 2 2}{user "head"}}
+		}
+	}
+	{Inventory 0xe000
+		{box
+			{clear}
+		}
+	}
+	{Inventory 0xc001
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 18 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "ger_m34_sidecap" {cell 0 1}{user "head"}}
+		}
+	}
+	{Inventory 0xc002
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 20 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "bandage_ger" {cell 0 1}}
+			{item "ger_m34_sidecap" {cell 2 1}{user "head"}}
+		}
+	}
+	{Inventory 0xa004
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 20 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "bandage_ger" {cell 0 1}}
+			{item "ger_m34_sidecap" {cell 2 1}{user "head"}}
+		}
+	}
+	{Inventory 0xa005
+		{box
+			{clear}
+			{item "p38" filled {cell 0 0}}
+			{item "pistol" "ammo" 18 {cell 2 0}}
+			{item "bandage_ger" {cell 4 0}}
+			{item "bandage_ger" {cell 6 0}}
+			{item "ger_m34_sidecap" {cell 0 1}{user "head"}}
+		}
+	}
+	{Inventory 0xa007
+		{box
+			{clear}
+			{item 0xa008 {cell 0 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "m24" "grenade" {cell 0 3}}
+			{item "mine_detector" {cell 3 3}}
+			{item "wirecutters" {cell 0 4}{user "hand_right"}}
+			{item "shovel_ger" {cell 0 5}}
+			{item "pickaxe" {cell 4 5}}
+			{item "ger_m42_helmet_winter_cover" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0xe001
+		{box
+			{clear}
+			{item 0xe002 {cell 0 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "m24" "grenade" {cell 0 3}}
+			{item "mine_detector" {cell 3 3}}
+			{item "wirecutters" {cell 0 4}}
+			{item "shovel_ger" {cell 0 5}}
+			{item "pickaxe" {cell 4 5}{user "hand_right"}}
+			{item "ger_m42_helmet_winter_cover" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0xc00d
+		{box
+			{clear}
+			{item "tt33" filled {cell 0 0}}
+			{item "tt33" "ammo" 8 {cell 2 0}}
+			{item "tt33" "ammo" 4 {cell 4 0}}
+			{item "bandage_rus" {cell 6 0}}
+			{item "soviet_tankovy_helmet" {cell 0 1}{user "head"}}
+		}
+	}
+	{Inventory 0xc00e
+		{box
+			{clear}
+			{item "tt33" filled {cell 0 0}}
+			{item "tt33" "ammo" 8 {cell 2 0}}
+			{item "tt33" "ammo" 4 {cell 4 0}}
+			{item "bandage_rus" {cell 6 0}}
+			{item "soviet_tankovy_helmet" {cell 0 1}{user "head"}}
+		}
+	}
+	{Inventory 0xc00f
+		{box
+			{clear}
+			{item "tt33" filled {cell 0 0}}
+			{item "tt33" "ammo" 8 {cell 2 0}}
+			{item "tt33" "ammo" 4 {cell 4 0}}
+			{item "bandage_rus" {cell 6 0}}
+			{item "soviet_tankovy_helmet" {cell 0 1}{user "head"}}
+		}
+	}
+	{Inventory 0xe003
+		{box
+			{clear}
+			{item 0xe004 {cell 0 0}}
+			{item "ppd_drum" "ammo" 71 {cell 5 0}}
+			{item "tt33" filled {cell 0 2}}
+			{item "bandage_rus" {cell 2 2}}
+			{item "soviet_tankist_cap" {cell 4 2}{user "head"}}
+		}
+	}
+	{Inventory 0x800d
+		{box
+			{clear}
+			{item 0x800e {cell 0 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 2 {cell 3 2}}
+			{item "m24" "grenade" {cell 4 2}}
+			{item "m24_smoke" "grenade" {cell 0 3}}
+			{item "m24_smoke" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 3 4}}
+			{item "bandage_ger" {cell 5 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 2 5}}
+			{item "bandage_ger" {cell 4 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "bandage_ger" {cell 4 6}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "bandage_ger" {cell 0 7}}
+			{item "bandage_ger" {cell 2 7}}
+			{item "bandage_ger" {cell 4 7}}
+			{item "bandage_ger" {cell 6 7}}
+			{item "bandage_ger" {cell 0 8}}
+			{item "bandage_ger" {cell 2 8}}
+			{item "bandage_ger" {cell 4 8}}
+			{item "bandage_ger" {cell 6 8}}
+			{item "bandage_ger" {cell 0 9}}
+			{item "bandage_ger" {cell 2 9}}
+			{item "bandage_ger" {cell 4 9}}
+			{item "tent_kit" 2 {cell 0 10}}
+			{item "ger_m40_helmet_medic" {cell 6 9}{user "head"}}
+		}
+	}
+	{Inventory 0xc003
+		{box
+			{clear}
+			{item 0xc004 {cell 0 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 3 {cell 4 2}}
+			{item "m24" "grenade" {cell 5 2}}
+			{item "m24_smoke" "grenade" {cell 0 3}}
+			{item "m24_smoke" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 3 4}}
+			{item "bandage_ger" {cell 5 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 2 5}}
+			{item "bandage_ger" {cell 4 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "bandage_ger" {cell 4 6}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "bandage_ger" {cell 0 7}}
+			{item "bandage_ger" {cell 2 7}}
+			{item "bandage_ger" {cell 4 7}}
+			{item "bandage_ger" {cell 6 7}}
+			{item "bandage_ger" {cell 0 8}}
+			{item "bandage_ger" {cell 2 8}}
+			{item "bandage_ger" {cell 4 8}}
+			{item "bandage_ger" {cell 6 8}}
+			{item "bandage_ger" {cell 0 9}}
+			{item "bandage_ger" {cell 2 9}}
+			{item "bandage_ger" {cell 4 9}}
+			{item "bandage_ger" {cell 6 9}}
+			{item "tent_kit" 2 {cell 0 10}}
+			{item "ger_m40_helmet_medic" {cell 6 10}{user "head"}}
+		}
+	}
+	{Inventory 0xa001
+		{box
+			{clear}
+			{item 0xa002 {cell 0 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 2 {cell 4 2}}
+			{item "m24" "grenade" {cell 5 2}}
+			{item "m24_smoke" "grenade" {cell 0 3}}
+			{item "m24_smoke" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 3 4}}
+			{item "bandage_ger" {cell 5 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 2 5}}
+			{item "bandage_ger" {cell 4 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "bandage_ger" {cell 4 6}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "bandage_ger" {cell 0 7}}
+			{item "bandage_ger" {cell 2 7}}
+			{item "bandage_ger" {cell 4 7}}
+			{item "bandage_ger" {cell 6 7}}
+			{item "bandage_ger" {cell 0 8}}
+			{item "bandage_ger" {cell 2 8}}
+			{item "bandage_ger" {cell 4 8}}
+			{item "bandage_ger" {cell 6 8}}
+			{item "bandage_ger" {cell 0 9}}
+			{item "bandage_ger" {cell 2 9}}
+			{item "bandage_ger" {cell 4 9}}
+			{item "bandage_ger" {cell 6 9}}
+			{item "tent_kit" 2 {cell 0 10}}
+			{item "ger_m40_helmet_medic" {cell 6 10}{user "head"}}
+		}
+	}
+	{Inventory 0xe005
+		{box
+			{clear}
+			{item 0xe006 {cell 0 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 3 {cell 4 2}}
+			{item "m24" "grenade" {cell 5 2}}
+			{item "m24_smoke" "grenade" {cell 0 3}}
+			{item "m24_smoke" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "m24_smoke" "grenade" {cell 3 4}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 2 5}}
+			{item "bandage_ger" {cell 4 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "bandage_ger" {cell 4 6}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "bandage_ger" {cell 0 7}}
+			{item "bandage_ger" {cell 2 7}}
+			{item "bandage_ger" {cell 4 7}}
+			{item "bandage_ger" {cell 6 7}}
+			{item "bandage_ger" {cell 0 8}}
+			{item "bandage_ger" {cell 2 8}}
+			{item "bandage_ger" {cell 4 8}}
+			{item "bandage_ger" {cell 6 8}}
+			{item "bandage_ger" {cell 0 9}}
+			{item "bandage_ger" {cell 2 9}}
+			{item "tent_kit" 2 {cell 0 10}}
+			{item "ger_m40_helmet_medic" {cell 6 9}{user "head"}}
+		}
+	}
+	{Inventory 0xd008
+		{box
+			{clear}
+			{item "luger" filled {cell 0 0}}
+			{item "pistol" "ammo" 18 {cell 3 0}}
+			{item "m24_smoke" "grenade" {cell 5 0}}
+			{item "m24_smoke" "grenade" {cell 0 1}}
+			{item "m24_smoke" "grenade" {cell 3 1}}
+			{item "bandage_ger" {cell 6 1}}
+			{item "bandage_ger" {cell 0 2}}
+			{item "bandage_ger" {cell 2 2}}
+			{item "bandage_ger" {cell 4 2}}
+			{item "bandage_ger" {cell 6 2}}
+			{item "bandage_ger" {cell 0 3}}
+			{item "bandage_ger" {cell 2 3}}
+			{item "bandage_ger" {cell 4 3}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 0 4}}
+			{item "bandage_ger" {cell 2 4}}
+			{item "bandage_ger" {cell 4 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 2 5}}
+			{item "bandage_ger" {cell 4 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "bandage_ger" {cell 4 6}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "bandage_ger" {cell 0 7}}
+			{item "bandage_ger" {cell 2 7}}
+			{item "bandage_ger" {cell 4 7}}
+			{item "tent_kit" 2 {cell 0 8}}
+			{item "ger_sidecap_m39_var2_med" {cell 6 7}}
+			{item "ger_stalhelm_m43_medic_var2" {cell 6 9}{user "head"}}
+		}
+	}
+	{Inventory 0xc005
+		{box
+			{clear}
+			{item "panzershreck_54" "weapon" 6 filled {cell 0 0}}
+			{item "panzershreck" "ammo" 6 {cell 0 2}}
+			{item "panzershreck" "ammo" 6 {cell 3 2}}
+			{item "panzershreck" "ammo" 6 {cell 0 3}}
+			{item "panzershreck" "ammo" 6 {cell 3 3}}
+			{item "panzershreck" "ammo" 6 {cell 0 4}}
+			{item "morphine" 6 {cell 3 4}}
+			{item "morphine" 6 {cell 6 2}}
+			{item "morphine" 6 {cell 6 3}}
+			{item "morphine" 6 {cell 0 5}}
+			{item "morphine" 6 {cell 2 5}}
+			{item "morphine" 6 {cell 4 5}}
+			{item "knife_eng" 6 {cell 5 4}}
+		}
+	}
+	{Inventory 0x8013
+		{box
+			{clear}
+			{item "can" {cell 0 0}}
+			{item "repair_kit" 5 {cell 3 0}}
+			{item "mgun_ger" "drum" "ammo" 450 {cell 6 0}}
+		}
+	}
+	{Inventory 0xe007
+		{box
+			{clear}
+			{item 0xe008 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x900d
+		{box
+			{clear}
+			{item 0x900c {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x900f
+		{box
+			{clear}
+			{item 0x900e {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9011
+		{box
+			{clear}
+			{item 0x9010 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9013
+		{box
+			{clear}
+			{item 0x9012 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9015
+		{box
+			{clear}
+			{item 0x9014 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9017
+		{box
+			{clear}
+			{item 0x9016 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9019
+		{box
+			{clear}
+			{item 0x9018 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x901b
+		{box
+			{clear}
+			{item 0x901a {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x901d
+		{box
+			{clear}
+			{item 0x901c {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x901f
+		{box
+			{clear}
+			{item 0x901e {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9021
+		{box
+			{clear}
+			{item 0x9020 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9023
+		{box
+			{clear}
+			{item 0x9022 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9025
+		{box
+			{clear}
+			{item 0x9024 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9027
+		{box
+			{clear}
+			{item 0x9026 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9029
+		{box
+			{clear}
+			{item 0x9028 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x902b
+		{box
+			{clear}
+			{item 0x902a {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x902d
+		{box
+			{clear}
+			{item 0x902c {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x902f
+		{box
+			{clear}
+			{item 0x902e {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9031
+		{box
+			{clear}
+			{item 0x9030 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9033
+		{box
+			{clear}
+			{item 0x9032 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9035
+		{box
+			{clear}
+			{item 0x9034 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9037
+		{box
+			{clear}
+			{item 0x9036 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x9039
+		{box
+			{clear}
+			{item 0x9038 {cell 0 0}{user "hand_right"}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "shovel_ger" {cell 4 6}}
+			{item "ger_m40_helmet_blau" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0x8014
+		{box
+			{clear}
+			{item "mp40" "ammo" 32 {cell 5 0}}
+			{item "mp40" "ammo" 32 {cell 6 0}}
+			{item "mp40" "ammo" 32 {cell 7 0}}
+			{item "mp40" "ammo" 32 {cell 0 2}}
+			{item "mp40" "ammo" 32 {cell 1 2}}
+			{item "mp40" "ammo" 32 {cell 2 2}}
+			{item "m24" "grenade" {cell 3 2}}
+			{item "m24" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "m24_geballteladung" "grenade" {cell 3 4}}
+			{item "bandage_ger" {cell 6 2}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "shovel_ger" {cell 0 6}}
+			{item "ger_sidecap_m42_var3" {cell 6 5}}
+			{item "ger_stalhelm_m39_blau_wire" {cell 4 6}{user "head"}}
+		}
+	}
+	{Inventory 0xc007
+		{box
+			{clear}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "m24" "grenade" {cell 0 3}}
+			{item "m24" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "m24_smoke" "grenade" {cell 3 4}}
+			{item "m24_geballteladung" "grenade" {cell 0 5}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 5}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "bandage_ger" {cell 0 7}}
+			{item "shovel_ger" {cell 2 7}}
+			{item "ger_sidecap_m41_var3" {cell 6 7}}
+			{item "ger_stalhelm_m39_blau_var3" {cell 0 8}{user "head"}}
+		}
+	}
+	{Inventory 0xa00a
+		{box
+			{clear}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 4 {cell 7 2}}
+			{item "m24" "grenade" {cell 0 3}}
+			{item "m24" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "m24_smoke" "grenade" {cell 3 4}}
+			{item "m24_geballteladung" "grenade" {cell 0 5}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 5}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "shovel_ger" {cell 0 7}}
+			{item "ger_sidecap_m41_var3" {cell 4 7}}
+			{item "ger_stalhelm_m39_blau_var3" {cell 6 7}{user "head"}}
+		}
+	}
+	{Inventory 0xe009
+		{box
+			{clear}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" {cell 7 2}}
+			{item "m24" "grenade" {cell 0 3}}
+			{item "m24" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "shovel_ger" {cell 0 6}}
+			{item "ger_sidecap_m41_var3" {cell 4 6}}
+			{item "ger_stalhelm_m39_blau_var3" {cell 6 6}{user "head"}}
+		}
+	}
+	{Inventory 0x903a
+		{box
+			{clear}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 2}}
+			{item "rifle_ger" "clip" "ammo" {cell 0 3}}
+			{item "m24" "grenade" {cell 1 3}}
+			{item "m24" "grenade" {cell 4 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "m24_smoke" "grenade" {cell 3 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 0 5}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 3 5}}
+			{item "bandage_ger" {cell 5 5}}
+			{item "bandage_ger" {cell 3 6}}
+			{item "shovel_ger" {cell 0 7}}
+			{item "ger_sidecap_m41_var3" {cell 5 6}}
+			{item "ger_stalhelm_m39_blau_var3" {cell 4 8}{user "head"}}
+		}
+	}
+	{Inventory 0xd001
+		{box
+			{clear}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" 3 {cell 7 2}}
+			{item "m24" "grenade" {cell 0 3}}
+			{item "m24" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 4}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "shovel_ger" {cell 2 6}}
+			{item "ger_sidecap_m41_var3" {cell 6 6}}
+			{item "ger_stalhelm_m39_blau_var3" {cell 0 7}{user "head"}}
+		}
+	}
+	{Inventory 0xb000
+		{box
+			{clear}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 0}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 7 1}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 0 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 1 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 2 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 3 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 4 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 5 2}}
+			{item "rifle_ger" "clip" "ammo" 5 {cell 6 2}}
+			{item "rifle_ger" "clip" "ammo" {cell 7 2}}
+			{item "m24" "grenade" {cell 0 3}}
+			{item "m24" "grenade" {cell 3 3}}
+			{item "m24_smoke" "grenade" {cell 0 4}}
+			{item "m24_smoke" "grenade" {cell 3 4}}
+			{item "m24_geballteladung" "grenade" {cell 0 5}}
+			{item "mgun_ger" "belt" "ammo" 50 {cell 3 5}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "bandage_ger" {cell 0 7}}
+			{item "shovel_ger" {cell 2 7}}
+			{item "ger_sidecap_m41_var3" {cell 6 7}}
+			{item "ger_stalhelm_m39_blau_var3" {cell 0 8}{user "head"}}
+		}
+	}
+	{Inventory 0xf002
+		{box
+			{clear}
+		}
+	}
+	{Inventory 0x8016
+		{box
+			{clear}
+		}
+	}
+	{Inventory 0x802b
+		{box
+			{clear}
+			{item "luger" filled {cell 0 0}}
+			{item "pistol" "ammo" 18 {cell 3 0}}
+			{item "m24_smoke" "grenade" {cell 5 0}}
+			{item "m24_smoke" "grenade" {cell 0 1}}
+			{item "m24_smoke" "grenade" {cell 3 1}}
+			{item "bandage_ger" {cell 6 1}}
+			{item "bandage_ger" {cell 0 2}}
+			{item "bandage_ger" {cell 2 2}}
+			{item "bandage_ger" {cell 4 2}}
+			{item "bandage_ger" {cell 6 2}}
+			{item "bandage_ger" {cell 0 3}}
+			{item "bandage_ger" {cell 2 3}}
+			{item "bandage_ger" {cell 4 3}}
+			{item "bandage_ger" {cell 6 3}}
+			{item "bandage_ger" {cell 0 4}}
+			{item "bandage_ger" {cell 2 4}}
+			{item "bandage_ger" {cell 4 4}}
+			{item "bandage_ger" {cell 6 4}}
+			{item "bandage_ger" {cell 0 5}}
+			{item "bandage_ger" {cell 2 5}}
+			{item "bandage_ger" {cell 4 5}}
+			{item "bandage_ger" {cell 6 5}}
+			{item "bandage_ger" {cell 0 6}}
+			{item "bandage_ger" {cell 2 6}}
+			{item "bandage_ger" {cell 4 6}}
+			{item "bandage_ger" {cell 6 6}}
+			{item "bandage_ger" {cell 0 7}}
+			{item "bandage_ger" {cell 2 7}}
+			{item "bandage_ger" {cell 4 7}}
+			{item "tent_kit" 2 {cell 0 8}}
+			{item "ger_sidecap_m39_var2_med" {cell 6 7}}
+			{item "ger_stalhelm_m43_medic_var2" {cell 6 9}{user "head"}}
+		}
+	}
+	{Brain 0xa000
+		{Properties
+			{fire_mode hold}
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+			{auto_medic}
+		}
+	}
+	{Brain 0xd000
+		{Properties
+			{control user}
+			{fire_mode hold}
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xd003
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xd005
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xd006
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xd009
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xd00a
+		{Properties
+			{fire_mode return}
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xa003
+		{Properties
+			{control user}
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xe000
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xc001
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xc002
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xa004
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xa005
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xa007
+		{Properties
+			{fire_mode hold}
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xe001
+		{Properties
+			{fire_mode hold}
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xc00d
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xc00e
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xc00f
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xc010
+		{Properties
+			{fire_mode hold}
+			{move_mode hold}
+			{look_around 0}
+		}
+	}
+	{Brain 0xe003
+		{Properties
+			{fire_mode hold}
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x8005
+		{Properties
+			{fire_mode hold}
+			{move_mode hold}
+		}
+	}
+	{Brain 0x8009
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x800b
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x800d
+		{Properties
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+			{auto_medic}
+		}
+	}
+	{Brain 0xc003
+		{Properties
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+			{auto_medic}
+		}
+	}
+	{Brain 0xa001
+		{Properties
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+			{auto_medic}
+		}
+	}
+	{Brain 0xe005
+		{Properties
+			{move_mode hold}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+			{auto_medic}
+		}
+	}
+	{Brain 0xd008
+		{Properties
+			{fire_mode hold}
+			{move_mode hold}
+			{ai_move
+				{mode disable}
+			}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+			{auto_medic}
+		}
+	}
+	{Brain 0xa009
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0xe007
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x900d
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x900f
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9011
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9013
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9015
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9017
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9019
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x901b
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x901d
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x901f
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9021
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9023
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9025
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9027
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9029
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x902b
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x902d
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x902f
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9031
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9033
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9035
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9037
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x9039
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x8014
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xc007
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xa00a
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xe009
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0x903a
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xd001
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xb000
+		{Properties
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+		}
+	}
+	{Brain 0xf002
+		{Properties
+			{look_around 0}
+		}
+	}
+	{Brain 0x8016
+		{Properties
+			{look_around 0}
+		}
+	}
+	{Brain 0x802b
+		{Properties
+			{fire_mode hold}
+			{move_mode hold}
+			{ai_move
+				{mode disable}
+			}
+			{advance_ratio 0.5}
+			{retreat_ratio 4}
+			{auto_medic}
+		}
+	}
+	{Brain 0xd004
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Environment "goh/west/wip/winter/day_cloudy_1_b_unter"}
+	{Helpers
+		{event "addictedmedicsaved"}
+		{event "checkmedicalstart"}
+		{event "deunkmedics_on"}
+		{event "hogguycame"}
+		{event "medicsfound"}
+		{event "medicskilled"}
+		{event "tanksarrived"}
+		{zone "circle"
+			{position -1136.05 -3651.8 40.5455}
+			{Name "bushes"}
+			{Radius 280}
+		}
+		{zone "circle"
+			{position -321.921 4041.79 271}
+			{Name "headquarters"}
+			{Radius 400}
+		}
+		{zone "circle"
+			{position 727.719 -3582.72 53.1991}
+			{Name "hidden_drug"}
+			{Radius 20}
+		}
+		{zone "circle"
+			{position 564.646 -3508.08 65.4069}
+			{Name "hidden_grug_zone"}
+			{Radius 200}
+		}
+		{zone "circle"
+			{position 1205.8 -2780.82 132.935}
+			{Name "medicalmoto_arrived"}
+			{Radius 150}
+		}
+		{zone "circle"
+			{position 2867.82 -2363.1 165.134}
+			{Name "mediccar_comment"}
+			{Radius 150}
+		}
+		{zone "circle"
+			{position 5485.16 4161.6 217}
+			{Name "newmedical"}
+			{Radius 60}
+		}
+		{zone "circle"
+			{position 5283.96 -414.816 170}
+			{Name "oldmedical"}
+			{Radius 60}
+		}
+		{zone "circle"
+			{position 5543.1 -628.36 170.233}
+			{Name "secretstash"}
+			{Radius 20}
+		}
+		{zone "circle"
+			{position -1558.68 -3151.78 106}
+			{Name "tankarrived"}
+			{Radius 80}
+		}
+		{zone "circle"
+			{position -1057.81 -5901.62 12.6182}
+			{Name "tankscreamtrigger"}
+			{Radius 150}
+		}
+		{tasks
+			{"проведать гарольда в новом медпункте"
+				{desc "$/newmedicaldescr"}
+				{primary}
+				{state hidden}
+				{point newmedical}
+			}
+			{"узнать, почему задержалась медицинаская машина"
+				{desc "$/checkcardescr"}
+				{primary}
+				{state hidden}
+				{point oldmedical}
+			}
+			{"сьездить за раненым"
+				{desc "$/checkwounded"}
+				{primary}
+				{state hidden}
+				{point hidden_grug_zone}
+			}
+			{"или разобраться с санитаром"
+				{desc "$/killsanitar"}
+				{primary}
+				{state hidden}
+			}
+			{"или оставить санитара в покое"
+				{desc "$/savesanitar"}
+				{primary}
+				{state hidden}
+			}
+			{"разобраться с танками"
+				{desc "$/defend"}
+				{primary}
+				{state hidden}
+				{point mediccar_pointer}
+			}
+			{"отбить танковую атаку"
+				{desc ""}
+				{primary}
+				{state hidden}
+			}
+			{"проверить тело саниатара"
+				{desc "$/hiddendrugs_checkbody"}
+				{state hidden}
+			}
+			{"проверить тайник"
+				{desc "$/stash_checkstash"}
+				{state hidden}
+				{point secretstash}
+			}
+			{"вернуться в медпункт"
+				{desc "$/hiddendrugs_return"}
+				{primary}
+				{state hidden}
+				{point oldmedical}
+			}
+			{"обыскать местность"
+				{desc "$/hiddendeugs_find"}
+				{primary}
+				{state hidden}
+				{point hidden_grug_zone}
+			}
+		}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{cameras
+			{"startcam"
+				{"key000"
+					{time 20}
+					{position -1025.81 1541.84 585.396}
+					{look_at -1000.43 552.309 0}
+					{fov 45}
+				}
+				{"key001"
+					{time 25}
+					{position -440.617 1469.63 529.806}
+					{look_at -684 420.785 0}
+					{fov 45}
+				}
+				{"key002"
+					{time 30}
+					{position -193.874 1412.37 529.806}
+					{look_at -437.257 363.528 0}
+					{fov 45}
+				}
+				{"key003"
+					{time 35}
+					{position -56.9449 1846.66 470.576}
+					{look_at -363.004 618.899 0}
+					{fov 45}
+				}
+				{"key004"
+					{time 40}
+					{position -200.502 1846.57 465.356}
+					{look_at -268.37 964.055 0}
+					{fov 45}
+				}
+				{"key005"
+					{time 115}
+					{position -200.502 1846.57 465.356}
+					{look_at -268.37 964.055 0}
+					{fov 35}
+				}
+			}
+			{"newmedical"
+				{"key000"
+					{position 5139.03 4704.31 713.905}
+					{look_at 5530.76 3964.8 0}
+					{fov 44.9}
+				}
+				{"key001"
+					{time 20}
+					{position 5498.09 4602.86 468.733}
+					{look_at 5506.06 3893.83 0}
+					{fov 44.9}
+				}
+				{"key002"
+					{time 40}
+					{position 5683.25 4398.49 359.869}
+					{look_at 5197.59 3874.44 0}
+					{fov 44.9}
+				}
+				{"key003"
+					{time 41}
+					{position 5683.25 4398.49 359.868}
+					{look_at 5197.59 3874.44 0}
+					{fov 44.9}
+				}
+			}
+			{"tanksarrived"
+				{"key000"
+					{position -192.697 -4827.48 1681.54}
+					{look_at -1304.29 -5935.09 0}
+					{fov 44.9}
+				}
+				{"key001"
+					{time 5}
+					{position -130.471 -3705.17 1179.27}
+					{look_at -1358.01 -5251.93 0}
+					{fov 44.9}
+				}
+				{"key002"
+					{time 8}
+					{position -17.5386 -2928.99 1179.27}
+					{look_at -1245.08 -4475.75 0}
+					{fov 44.9}
+				}
+			}
+			{"drugstalk"
+				{"key000"
+					{position 448.913 -2847.87 529.852}
+					{look_at 572.724 -3564.76 0}
+					{fov 45}
+				}
+				{"key001"
+					{time 3}
+					{position 799.229 -2978.82 644.487}
+					{look_at 572.724 -3564.76 0}
+					{fov 45}
+				}
+				{"key002"
+					{time 6}
+					{position 1053.49 -3160.41 644.487}
+					{look_at 572.724 -3564.76 0}
+					{fov 45}
+				}
+			}
+			{"drunkmedics"
+				{"key000"
+					{position 5021.2 308.855 649.95}
+					{look_at 5318.72 -700.041 0}
+					{fov 44.9}
+				}
+				{"key001"
+					{time 20}
+					{position 5392.54 193.351 568.95}
+					{look_at 5182.72 -708.125 0}
+					{fov 44.9}
+				}
+				{"key002"
+					{time 40}
+					{position 5571.11 112.593 446.1}
+					{look_at 5003.32 -764.987 0}
+					{fov 44.9}
+				}
+			}
+		}
+		{triggers
+			{"startscene/camera"
+				{condition
+				}
+				{actions
+					{"loop" 5
+						{"animate"
+							{selector
+								{tag hogguy}
+							}
+							{animation squat_repair_1}
+							{speed 1}
+						}
+					}
+					{"scenario"
+						{message
+							{text ""}
+						}
+						{camera
+							{name "startcam"}
+							{disable_cancel}
+							{smooth_begin 0}
+						}
+					}
+					{"delay"
+						{time 10}
+					}
+					{"actor_to_waypoint"
+						{selector
+							{tag hogguy}
+						}
+						{waypoint "0"}
+					}
+					{"music"
+						{start "/music/ger_ambient_lvl1.wav"}
+						{volume game}
+					}
+				}
+			}
+			{"newmedical/checkmedical"
+				{condition
+					{terms
+						{"1.event"
+							{id "checkmedicalstart"}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "проведать гарольда в новом медпункте"}
+					}
+					{"sound"
+						{name "mission/task_new"}
+					}
+				}
+			}
+			{"startscene/dialog"
+				{condition
+					{terms
+						{"1.event"
+							{id "hogguycame"}
+						}
+					}
+				}
+				{actions
+					{"talk"
+						{selector
+							{tag hogguy}
+						}
+						{say wounded}
+						{text "$/hogbuilt"}
+					}
+					{"delay"
+						{time 6}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{say idle}
+						{text "$/answertohog1"}
+					}
+					{"delay"
+						{time 10}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{say idle}
+						{text "$/answertohog2"}
+					}
+					{"delay"
+						{time 8}
+					}
+					{"talk"
+						{selector
+							{tag hogguy}
+						}
+						{say idle}
+						{text "$/hogtoofficer1"}
+					}
+					{"delay"
+						{time 8}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{say idle}
+						{text "$/answertohog3"}
+					}
+					{"delay"
+						{time 6}
+					}
+					{"talk"
+						{selector
+							{tag hogguy}
+						}
+						{say idle}
+						{text "$/hogtoofficer2"}
+					}
+					{"delay"
+						{time 6}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag hogguy}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "7"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag hogguy}
+						}
+						{fire_mode hold}
+						{move_mode hold}
+						{weapon_prepare off}
+						{movement
+							{speed fast}
+							{kind fast}
+						}
+					}
+					{"action"
+						{selector
+							{tag hogguy}
+						}
+						{action accelerate}
+						{target
+							{tag hogguy}
+						}
+					}
+					{"delay"
+						{time 6}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{say idle}
+						{text "$/gotonewmedical"}
+					}
+					{"trigger"
+						{name "checkmedical"}
+					}
+					{"event"
+						{event "checkmedicalstart"}
+						{mode set}
+						{delay 0}
+					}
+				}
+			}
+			{"drunkmedics/startanim"
+				{condition
+				}
+				{actions
+					{"animate"
+						{selector
+							{tag drunkmedics_seat}
+						}
+						{animation armor_seat}
+						{speed 1}
+						{loop}
+					}
+				}
+			}
+			{"newmedical/medicalchecked"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag alexandr}
+								{zone "newmedical"}
+							}
+						}
+					}
+				}
+				{actions
+					{"scenario"
+						{message
+							{text ""}
+						}
+						{camera
+							{name "newmedical"}
+							{disable_cancel}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag alexandr}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "20"}
+						}
+					}
+					{"task"
+						{name "проведать гарольда в новом медпункте"}
+						{state complete}
+					}
+					{"task"
+						{name "проведать гарольда в новом медпункте"}
+						{state hide}
+					}
+					{"sound"
+						{name "mission/task_complete"}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/newmedical_alex1"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag garold}
+						}
+						{text "$/newmedical_garold1"}
+					}
+					{"delay"
+						{time 13}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/newmedical_alex2"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag garold}
+						}
+						{text "$/newmedical_garold2"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/newmedical_alex3"}
+					}
+					{"task"
+						{name "узнать, почему задержалась медицинаская машина"}
+					}
+					{"sound"
+						{name "mission/task_new"}
+					}
+				}
+			}
+			{"drunkmedics/scene"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag alexandr}
+								{zone "oldmedical"}
+							}
+						}
+					}
+				}
+				{actions
+					{"scenario"
+						{message
+							{text ""}
+						}
+						{camera
+							{name "drunkmedics"}
+							{disable_cancel}
+							{smooth_end 0}
+						}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/medical_alex1"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag drunkmedics}
+						}
+						{text "$/medical_sanitar1"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/medical_alex2"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag drunkmedics}
+						}
+						{text "$/medical_sanitar2"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/medical_alex3"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag drunkmedics}
+						}
+						{text "$/medical_sanitar3"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"task"
+						{name "узнать, почему задержалась медицинаская машина"}
+						{state complete}
+					}
+					{"task"
+						{name "сьездить за раненым"}
+					}
+					{"trigger"
+						{name "drunkmedics/moveandstop"}
+					}
+					{"event"
+						{event "deunkmedics_on"}
+						{mode set}
+						{delay 0}
+					}
+				}
+			}
+			{"hiddendrugs/scene"
+				{condition
+				}
+			}
+			{"drunkmedics/moveandstop"
+				{condition
+					{terms
+						{"1.event"
+							{id "deunkmedics_on"}
+						}
+					}
+				}
+				{actions
+					{"board"
+						{selector
+							{tag drunkmedics}
+						}
+						{vehicle
+							{tag medical_moto}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag medical_moto}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "19"}
+						}
+					}
+					{"delay"
+						{time 15}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag drunkmedics}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "50"}
+						}
+					}
+				}
+			}
+			{"hiddendrugs/drugsfound"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{zone "hidden_drug"}
+								{player "0"}
+							}
+						}
+					}
+				}
+				{actions
+					{"talk"
+						{text "$/hiddendrugs_drugsfound"}
+					}
+					{"task"
+						{name "обыскать местность"}
+						{state complete}
+					}
+					{"sound"
+						{name "mission/task_new"}
+					}
+				}
+			}
+			{"hiddendrugs/drugstaken"
+				{condition
+					{terms
+						{"1.inventory"
+							{selector
+								{tag alexandr}
+							}
+							{where "all holders"}
+							{item "morphine"}
+						}
+					}
+				}
+				{actions
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/hiddendrugs_drugsfound"}
+					}
+					{"delay"
+						{time 5}
+					}
+					{"talk"
+						{selector
+							{tag drunkmedics}
+						}
+						{text "$/hiddendrugs_response2"}
+					}
+					{"task"
+						{name "обыскать местность"}
+						{state complete}
+					}
+					{"task"
+						{name "или разобраться с санитаром"}
+					}
+					{"task"
+						{name "или оставить санитара в покое"}
+					}
+					{"sound"
+						{name "mission/task_new"}
+					}
+					{"actor_state"
+						{selector
+							{tag drunkmedics}
+						}
+						{fire_mode hold}
+						{move_mode hold}
+						{move_radius 0}
+						{weapon_prepare off}
+						{human
+							{stamina 0}
+						}
+					}
+					{"player"
+						{selector
+							{tag drunkmedics}
+						}
+						{operation set}
+						{player "1"}
+					}
+				}
+			}
+			{"hiddendrugs/killed"
+				{condition
+					{terms
+						{"2.task"
+							{name "или разобраться с санитаром"}
+							{state shown}
+						}
+						{"1.entities"
+							{selector
+								{tag drunkmedics}
+								{state dead}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "или разобраться с санитаром"}
+						{state complete}
+					}
+					{"task"
+						{name "или оставить санитара в покое"}
+						{state fail}
+					}
+					{"sound"
+						{name "mission/task_secret"}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/hiddendrugs_killed"}
+					}
+					{"event"
+						{event "medicskilled"}
+						{mode set}
+						{delay 0}
+					}
+				}
+			}
+			{"hiddendrugs/leftalone"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag alexandr}
+								{zone "hidden_grug_zone"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+						{"2.task"
+							{name "или оставить санитара в покое"}
+							{state shown}
+						}
+					}
+				}
+				{actions
+					{"event"
+						{event "medicskilled"}
+						{mode reset}
+						{delay 0}
+					}
+					{"player"
+						{selector
+							{tag drunkmedics}
+						}
+						{operation set}
+						{player "2"}
+					}
+					{"task"
+						{name "или оставить санитара в покое"}
+						{state complete}
+					}
+					{"task"
+						{name "или разобраться с санитаром"}
+						{state fail}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/hiddendrugs_leftalone"}
+					}
+					{"delay"
+						{time 3}
+					}
+					{"talk"
+						{selector
+							{tag drunkmedics}
+						}
+						{text "$/hiddendrugs_response3"}
+					}
+					{"event"
+						{event "addictedmedicsaved"}
+						{mode set}
+						{delay 1}
+					}
+					{"board"
+						{selector
+							{tag drunkmedics}
+						}
+						{vehicle
+							{tag medical_moto}
+						}
+					}
+					{"delay"
+						{time 15}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag medical_moto}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "98"}
+						}
+					}
+				}
+			}
+			{"hiddendrugs/ending"
+				{condition
+					{type 1}
+					{terms
+						{"1.event"
+							{id "medicskilled"}
+						}
+						{"2.event"
+							{id "addictedmedicsaved"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 5}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{say idle}
+						{text "$/hiddendrugs_returnspeech"}
+					}
+					{"task"
+						{name "вернуться в медпункт"}
+					}
+					{"sound"
+						{name "mission/task_new"}
+					}
+				}
+			}
+			{"tanksarrive/scream"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag is2}
+								{zone "tankscreamtrigger"}
+							}
+						}
+					}
+				}
+				{actions
+					{"scenario"
+						{message
+							{text ""}
+						}
+						{camera
+							{name "tanksarrived"}
+							{disable_cancel}
+						}
+					}
+					{"talk"
+						{selector
+							{tag hogguy}
+						}
+						{text "$/tanksarrive_scream"}
+					}
+				}
+			}
+			{"hiddendrugs/drugsalmostfound"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag alexandr}
+								{zone "hidden_grug_zone"}
+								{player "0"}
+							}
+						}
+						{"2.entities"
+							{selector
+								{tag drunkmedics}
+								{zone "hidden_grug_zone"}
+							}
+						}
+					}
+				}
+				{actions
+					{"scenario"
+						{message
+							{text ""}
+						}
+						{camera
+							{name "drugstalk"}
+						}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/hiddendrugs_drugsalmostfound"}
+					}
+					{"delay"
+						{time 3}
+					}
+					{"talk"
+						{selector
+							{tag drunkmedics}
+						}
+						{text "$/hiddenderugs_response1"}
+					}
+					{"task"
+						{name "сьездить за раненым"}
+						{state complete}
+					}
+					{"task"
+						{name "обыскать местность"}
+					}
+					{"sound"
+						{name "mission/task_new"}
+					}
+				}
+			}
+			{"tanksarrive/tank_startmove"
+				{condition
+					{expression "1 &( 2 | 3)"}
+					{terms
+						{"1.entities"
+							{selector
+								{tag alexandr}
+								{zone "oldmedical"}
+							}
+						}
+						{"2.event"
+							{id "medicskilled"}
+						}
+						{"3.event"
+							{id "addictedmedicsaved"}
+						}
+					}
+				}
+				{actions
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag is2}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "13"}
+						}
+					}
+					{"task"
+						{name "вернуться в медпункт"}
+						{state complete}
+					}
+					{"sound"
+						{name "mission/task_complete"}
+					}
+				}
+			}
+			{"finishgame/failure"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag drunkmedics_car}
+								{state "not operatable"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+						{"2.task"
+							{name "разобраться с танками"}
+							{state shown}
+						}
+					}
+				}
+				{actions
+					{"gameover"
+						{result loose}
+						{message "$/finishgame_failure"}
+					}
+					{"sound"
+						{name "mission/task_failed"}
+					}
+				}
+			}
+			{"tanksarrive/thisisis2"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag is2}
+								{zone "tankarrived"}
+							}
+						}
+					}
+				}
+				{actions
+					{"talk"
+						{selector
+							{tag hogguy}
+						}
+						{text "$/thisisis2"}
+					}
+					{"delay"
+						{time 2}
+					}
+					{"talk"
+						{selector
+							{tag drunkmedics_2}
+						}
+						{text "$/tanksarrive_medicgo"}
+					}
+					{"delay"
+						{time 3}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/tankarrive_anssweralexander1"}
+					}
+					{"actor_state"
+						{selector
+							{tag is2}
+						}
+						{fire_mode open}
+						{move_mode hold}
+					}
+					{"board"
+						{selector
+							{tag drunkmedics_2}
+						}
+						{vehicle
+							{tag drunkmedics_car}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag drunkmedics_car}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "77"}
+						}
+					}
+					{"event"
+						{event "tanksarrived"}
+						{mode set}
+						{delay 0}
+					}
+					{"task"
+						{name "разобраться с танками"}
+					}
+					{"sound"
+						{name "mission/task_new"}
+					}
+					{"delay"
+						{time 3}
+					}
+					{"player"
+						{selector
+							{tag pak40andsayguy}
+						}
+						{operation set}
+						{player "0"}
+					}
+					{"sound"
+						{name "mission/task_fulfilled"}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/pak40andguy"}
+					}
+				}
+			}
+			{"hiddendrugs/checkbody"
+				{condition
+					{terms
+						{"1.event"
+							{id "medicskilled"}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "проверить тело саниатара"}
+					}
+					{"sound"
+						{name "mission/task_new"}
+					}
+				}
+			}
+			{"stash/activate"
+				{condition
+					{terms
+						{"1.inventory"
+							{selector
+								{tag alexandr}
+							}
+							{item "secret_doc_bag3"}
+						}
+					}
+				}
+				{actions
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/stash_found"}
+					}
+					{"task"
+						{name "проверить тайник"}
+					}
+					{"task"
+						{name "проверить тело саниатара"}
+						{state complete}
+					}
+				}
+			}
+			{"stash/found"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag alexandr}
+								{zone "secretstash"}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "проверить тайник"}
+						{state complete}
+					}
+					{"talk"
+						{selector
+							{tag alexandr}
+						}
+						{text "$/stash_checked"}
+					}
+				}
+			}
+			{"finishgame/success"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag is2}
+								{state "not operatable"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"gameover"
+						{result win}
+						{message "$/finishgame_win"}
+					}
+					{"sound"
+						{name "mission/task_fulfilled"}
+					}
+				}
+			}
+			{"drunkmedics/emitandgo"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag medical_moto}
+								{zone "medicalmoto_arrived"}
+							}
+						}
+					}
+				}
+				{actions
+					{"emit"
+						{selector
+							{tag medical_moto}
+						}
+					}
+					{"delay"
+						{time 5}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag drunkmedics}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "50"}
+						}
+					}
+				}
+			}
+			{"tanksarrive/mediccar_comment"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag drunkmedics_car}
+								{zone "mediccar_comment"}
+							}
+						}
+					}
+				}
+				{actions
+					{"talk"
+						{selector
+							{tag drunkmedics_2}
+						}
+						{text "$/tanksarrive_comment"}
+					}
+				}
+			}
+			{"startscene/laidown"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag hogguy}
+								{zone "bushes"}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{fire_mode hold}
+						{move_mode hold}
+						{movement
+							{type crawl}
+						}
+					}
+				}
+			}
+		}
+		{waypoints
+			{"37"
+				{position 568.895 -3194.11 103}
+			}
+			{"38"
+				{position 353.302 -2228.72 169.636}
+			}
+			{"39"
+				{position 112.108 -740.906 211}
+			}
+			{"40"
+				{position -150.992 933.353 226}
+			}
+			{"41"
+				{position -51.7498 1148.6 226}
+			}
+			{"42"
+				{position 72.7124 1417.02 217.552}
+			}
+			{"43"
+				{position -48.608 1773.73 236}
+			}
+			{"44"
+				{position -255.691 1848.71 237}
+			}
+			{"45"
+				{position -441.548 2362.89 240}
+			}
+			{"46"
+				{position -655.126 2678.22 239}
+			}
+			{"47"
+				{position 794.793 3004.28 233.761}
+			}
+			{"48"
+				{position 2368.39 3324.24 249}
+			}
+			{"49"
+				{position 5268.71 3999.89 222.311}
+			}
+		}
+		{waypoints "startscene/hogguy"
+			{"0"
+				{position -837.022 975.541 233}
+				{transition "1"}
+			}
+			{"1"
+				{position -619.207 978.663 234}
+				{transition "2"}
+			}
+			{"10"
+				{position 96.9743 -98.7852 220}
+				{transition "11"}
+			}
+			{"11"
+				{position 555.89 -3161.74 103}
+				{transition "12"}
+			}
+			{"12"
+				{position -1112.43 -3715.91 36}
+			}
+			{"2"
+				{position -240.963 1058.15 225}
+				{transition "3"}
+			}
+			{"3"
+				{position -119.583 1222.82 228}
+				{transition "4"}
+			}
+			{"4"
+				{position -149.325 1473.98 235}
+				{transition "5"}
+				{commands
+					{"talk"
+						{selector
+							{source standart}
+							{tag sayguy}
+						}
+						{say idle}
+						{text "$/slowwalkcomment"}
+					}
+				}
+			}
+			{"5"
+				{position -269.929 1464.12 235}
+				{transition "6"}
+			}
+			{"6"
+				{position -257.37 1379.62 233.83}
+				{commands
+					{"trigger"
+						{name "startscene/dialog"}
+					}
+					{"event"
+						{event "hogguycame"}
+						{mode set}
+						{delay 1}
+					}
+				}
+			}
+			{"7"
+				{position -241.292 1394.72 234}
+				{transition "8"}
+			}
+			{"8"
+				{position -242.321 1515.48 236}
+				{transition "9"}
+			}
+			{"9"
+				{position -153.764 1525.45 236}
+				{transition "10"}
+			}
+		}
+		{waypoints "attack/is2"
+			{"13"
+				{position -681.323 -8220.41 1}
+				{transition "14"}
+			}
+			{"14"
+				{position -720.239 -7959.65 8}
+				{transition "15"}
+			}
+			{"15"
+				{position -861.007 -6995.36 10}
+				{transition "16"}
+			}
+			{"16"
+				{position -1067.97 -5903.87 12.2706}
+				{transition "52"}
+			}
+			{"17"
+				{position 801.514 -4102.2 32.4655}
+				{transition "18"}
+			}
+			{"18"
+				{position 509.013 -3130.47 102}
+			}
+			{"52"
+				{position -1222.21 -5022.23 29.5366}
+				{transition "53"}
+			}
+			{"53"
+				{position -1560.57 -3155.91 105.723}
+			}
+		}
+		{waypoints "newmdedical_align"
+			{"20"
+				{position 5482.01 4147.9 217}
+			}
+		}
+		{waypoints "medical_go_to_hide_place"
+			{"19"
+				{position 5037.15 -153.805 183}
+				{radius 20}
+				{transition "21"}
+			}
+			{"21"
+				{position 4988.56 -84.2261 184}
+				{radius 20}
+				{transition "22"}
+			}
+			{"22"
+				{position 4917.05 15.6929 186}
+				{radius 20}
+				{transition "23"}
+			}
+			{"23"
+				{position 4857.03 60.557 191.689}
+				{radius 20}
+				{transition "24"}
+			}
+			{"24"
+				{position 4519.61 -59.8525 158}
+				{radius 20}
+				{transition "25"}
+			}
+			{"25"
+				{position 4385 -518.779 156}
+				{radius 20}
+				{transition "26"}
+			}
+			{"26"
+				{position 4231.02 -1197.72 154}
+				{radius 20}
+				{transition "27"}
+			}
+			{"27"
+				{position 4150.41 -1377.78 154}
+				{radius 20}
+				{transition "28"}
+			}
+			{"28"
+				{position 3817.04 -1478.54 213}
+				{radius 20}
+				{transition "29"}
+			}
+			{"29"
+				{position 3507.71 -1574.04 217}
+				{radius 20}
+				{transition "30"}
+			}
+			{"30"
+				{position 3095.53 -1725.14 211.01}
+				{radius 20}
+				{transition "31"}
+			}
+			{"31"
+				{position 2831.93 -2099.84 190}
+				{radius 20}
+				{transition "32"}
+			}
+			{"32"
+				{position 2857.49 -2343.34 165}
+				{radius 20}
+				{transition "33"}
+			}
+			{"33"
+				{position 2434.38 -2579.91 122.983}
+				{radius 20}
+				{transition "34"}
+			}
+			{"34"
+				{position 1805.4 -2736.02 110.691}
+				{radius 20}
+				{transition "35"}
+			}
+			{"35"
+				{position 1514.42 -2748.07 125.291}
+				{radius 20}
+				{transition "36"}
+			}
+			{"36"
+				{position 1203.17 -2786.24 133.46}
+				{radius 20}
+			}
+		}
+		{waypoints "walk_to_hidden_drugs"
+			{"50"
+				{position 576.252 -3176.65 103}
+				{transition "51"}
+			}
+			{"51"
+				{position 583.262 -3467.56 71}
+			}
+		}
+		{waypoints "attack/rush"
+			{"54"
+				{position 2477.01 -3426.34 47}
+			}
+			{"55"
+				{position 2450.22 -3067.49 58.0206}
+			}
+			{"56"
+				{position 2300.91 -2682.24 114}
+			}
+			{"57"
+				{position 2776.01 -2420.01 155.097}
+			}
+			{"58"
+				{position 3287.37 -2278.82 205.379}
+			}
+			{"59"
+				{position 3306.78 -1782.56 212}
+			}
+			{"60"
+				{position 3439.95 -1482.25 216.943}
+			}
+			{"61"
+				{position 3724.32 -1484 215.312}
+			}
+			{"62"
+				{position 4155.44 -1392.41 154}
+			}
+			{"63"
+				{position 4249.65 -1040.44 154}
+			}
+			{"64"
+				{position 4334.82 -691.405 154}
+			}
+			{"65"
+				{position 4457.71 -333.161 156}
+			}
+			{"66"
+				{position 4519.27 -20.5869 159}
+			}
+			{"67"
+				{position 4737.29 18.1622 174.825}
+			}
+			{"68"
+				{position 4869.09 -18.0538 185}
+			}
+			{"69"
+				{position 5045.51 -87.1176 184}
+			}
+			{"70"
+				{position 5158.91 -60.5692 181}
+			}
+			{"71"
+				{position 5188.43 40.8065 182.027}
+			}
+			{"72"
+				{position 5172.16 246.384 185}
+			}
+			{"73"
+				{position 5207.12 574.452 184}
+			}
+			{"74"
+				{position 5250.65 819.446 186.964}
+			}
+			{"75"
+				{position 5345.68 978.549 179}
+			}
+			{"76"
+				{position 5479.97 1100.72 162.1}
+			}
+		}
+		{waypoints "mediccar_go"
+			{"77"
+				{position 5195.66 -92.278 179}
+				{transition "78"}
+			}
+			{"78"
+				{position 4901.99 6.88989 186}
+				{transition "79"}
+			}
+			{"79"
+				{position 4710.42 115.698 166.944}
+				{transition "80"}
+			}
+			{"80"
+				{position 4507.21 -144.554 157}
+				{transition "81"}
+			}
+			{"81"
+				{position 4418.73 -423.762 156}
+				{transition "82"}
+			}
+			{"82"
+				{position 4304.45 -895.071 154}
+				{transition "83"}
+			}
+			{"83"
+				{position 4196.97 -1255.81 154}
+				{transition "84"}
+			}
+			{"84"
+				{position 3841.33 -1471.02 207.239}
+				{transition "85"}
+			}
+			{"85"
+				{position 3340.63 -1571.57 220.013}
+				{transition "86"}
+			}
+			{"86"
+				{position 3022.98 -1821.15 205.838}
+				{transition "87"}
+			}
+			{"87"
+				{position 2843.53 -2087.79 190.212}
+				{transition "88"}
+			}
+			{"88"
+				{position 2862.13 -2369.93 164.305}
+				{transition "89"}
+			}
+			{"89"
+				{position 2386.65 -2567.6 121.091}
+				{transition "90"}
+			}
+			{"90"
+				{position 2044.53 -2782.43 110}
+				{transition "91"}
+			}
+			{"91"
+				{position 1588.93 -3031.21 103}
+				{transition "92"}
+			}
+			{"92"
+				{position 1063.98 -3132.87 100.801}
+				{transition "93"}
+			}
+			{"93"
+				{position 653.425 -3162.92 103}
+				{transition "94"}
+			}
+			{"94"
+				{position 63.1107 -3199.95 102}
+				{transition "95"}
+			}
+			{"95"
+				{position -513.32 -3224.24 100}
+				{transition "96"}
+			}
+			{"96"
+				{position -896.631 -3202.51 103}
+				{transition "97"}
+			}
+			{"97"
+				{position -1184.92 -3168.87 104}
+			}
+		}
+		{waypoints "motogoback"
+			{"100"
+				{position 2572.5 -2482.99 142.588}
+				{transition "101"}
+			}
+			{"101"
+				{position 2831.81 -2035.92 192}
+				{transition "102"}
+			}
+			{"102"
+				{position 2915.51 -1651.46 209}
+				{transition "103"}
+			}
+			{"103"
+				{position 3241.26 -1597.48 221}
+				{transition "104"}
+			}
+			{"104"
+				{position 3954.84 -1458.13 178.162}
+				{transition "105"}
+			}
+			{"105"
+				{position 4246.75 -1214.55 154}
+				{transition "106"}
+			}
+			{"106"
+				{position 4311.9 -952.032 154}
+				{transition "107"}
+			}
+			{"107"
+				{position 4380.02 -661.952 155}
+				{transition "108"}
+			}
+			{"108"
+				{position 4545.89 -231.789 156.548}
+				{transition "109"}
+			}
+			{"109"
+				{position 4606.2 54.1337 160}
+				{transition "110"}
+			}
+			{"110"
+				{position 4791.02 79.0011 183.077}
+				{transition "111"}
+			}
+			{"111"
+				{position 4926.11 -1.48413 185}
+				{transition "112"}
+			}
+			{"112"
+				{position 5040.32 -98.5587 184}
+				{transition "113"}
+			}
+			{"113"
+				{position 5198.38 -0.324982 182}
+				{transition "114"}
+			}
+			{"114"
+				{position 5218.91 106.51 185}
+				{transition "115"}
+			}
+			{"115"
+				{position 5226.38 323.581 186.181}
+				{transition "116"}
+			}
+			{"116"
+				{position 5209.1 460.416 185}
+				{transition "117"}
+			}
+			{"117"
+				{position 5194.97 533.69 184}
+			}
+			{"98"
+				{position 1318.18 -2782.62 129.412}
+				{transition "99"}
+			}
+			{"99"
+				{position 1951.71 -2762.54 107}
+				{transition "100"}
+			}
+		}
+	}
+	{Players
+		{user 0}
+		{count 3}
+		{alias 0 "Player"}
+		{alias 1 "EnemyAI"}
+		{alias 2 "AlainceAI"}
+		{diplomacy
+			1 1 2
+			1 1 1
+			2 1 1
+		}
+	}
+	{Fog 0}
+	{Squads
+		{Squad
+			{Name "is2s"}
+			{Id 0}
+		}
+	}
+}
