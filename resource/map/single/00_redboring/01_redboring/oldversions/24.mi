@@ -3,6 +3,7 @@
 		{Position 5268.75 -388}
 		{xform zl -22.05}
 		{TexMod "winter"}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -116,6 +117,7 @@
 	{Human "single/ger/1943_win/officer" 0xa003
 		{Position 5491.43 4138.61}
 		{xform zl 108.64}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -360,10 +362,14 @@
 		{Position -634.74 -8526.59 3.71}
 		{xform zl 117.42 y 0.28 zw -24.94}
 		{TexMod "winter"}
+		{SpawnedInFog}
+		{Volume "detail1"
+			{disabled}
+		}
 		{Volume "detail2"
 			{disabled}
 		}
-		{Volume "detail4"
+		{Volume "detail3"
 			{disabled}
 		}
 		{Extender "enumerator"
@@ -396,6 +402,7 @@
 		{Position 5430.29 4028.19}
 		{xform zl -179.74 y 0.81 zw -11.52}
 		{TexMod "medic_winter"}
+		{SpawnedInFog}
 		{Extender "detail"
 			{random 0}
 			{detail9}
@@ -456,6 +463,7 @@
 	{Human "single/ger/1942_win/blau_medic" 0xc003
 		{Position 5560.34 4317.46}
 		{xform zl -150.74}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -476,6 +484,7 @@
 	}
 	{Human "single/ger/1942_win/blau_medic" 0xa001
 		{Position 5538.97 4308.4 221.02}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -518,6 +527,7 @@
 	{Human "mp/ger/mid/medic" 0xd008
 		{Position 5306.11 -413.05}
 		{xform zl 97.67}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -637,6 +647,7 @@
 	{Human "single/ger/1942_win/blau_2" 0xe007
 		{Position -6835.52 -610.57}
 		{xform zl -94.7}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -646,9 +657,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.933841}
-					{prevposition -6835.18 -635.479 187.659}
-					{prevdirection -0.108967 -0.994046 -0.000357568}
+					{value 0.995403}
+					{prevposition -6832.53 -636.02 187.47}
+					{prevdirection -0.0116864 -0.999857 -0.0122988}
 				}
 			}
 		}
@@ -675,6 +686,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x900d
 		{Position -6244.95 -551.34}
 		{xform zl -91.03}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -684,9 +696,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.999454}
-					{prevposition -6242 -575.849 193.582}
-					{prevdirection -0.0179567 -0.999839 0.000149132}
+					{value 0.996089}
+					{prevposition -6241.72 -575.929 193.679}
+					{prevdirection -0.0166069 -0.999861 0.00200678}
 				}
 			}
 		}
@@ -708,6 +720,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x900f
 		{Position -4576.7 308.89}
 		{xform zl -113.07}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -717,9 +730,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.9971}
-					{prevposition -4580.71 289.989 228.056}
-					{prevdirection -0.357415 -0.813383 0.458981}
+					{value 0.991374}
+					{prevposition -4582.13 283.762 225.436}
+					{prevdirection -0.331793 -0.943286 -0.0112789}
 				}
 			}
 		}
@@ -741,6 +754,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9011
 		{Position -7075.06 -1255.81}
 		{xform zl -97.12}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -750,9 +764,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.997466}
-					{prevposition -7074.89 -1281.37 191.5}
-					{prevdirection -0.110664 -0.993841 0.00607334}
+					{value 0.996983}
+					{prevposition -7074.9 -1275.27 193.33}
+					{prevdirection -0.175106 -0.878121 0.445245}
 				}
 			}
 		}
@@ -774,6 +788,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9013
 		{Position -6986.67 -966.03}
 		{xform zl -74.41}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -783,9 +798,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.998004}
-					{prevposition -6976.84 -989.526 182.35}
-					{prevdirection 0.267685 -0.963507 0.0006591}
+					{value 0.996988}
+					{prevposition -6979.02 -983.918 184.422}
+					{prevdirection 0.177429 -0.877654 0.445245}
 				}
 			}
 		}
@@ -807,6 +822,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9015
 		{Position -6983.22 -803.99}
 		{xform zl -37.38}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -816,9 +832,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.965219}
-					{prevposition -6965.04 -812.538 181.443}
-					{prevdirection 0.727032 -0.559071 0.398579}
+					{value 0.996957}
+					{prevposition -6966.34 -813.654 181.866}
+					{prevdirection 0.670409 -0.593347 0.445524}
 				}
 			}
 		}
@@ -840,6 +856,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9017
 		{Position -5102.62 -259.07}
 		{xform zl -140.38}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -849,9 +866,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.994473}
-					{prevposition -5119.78 -277.692 207.208}
-					{prevdirection -0.77403 -0.633149 -0.00107767}
+					{value 0.999136}
+					{prevposition -5120.05 -277.639 207.638}
+					{prevdirection -0.770378 -0.637588 -9.93216e-07}
 				}
 			}
 		}
@@ -873,6 +890,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9019
 		{Position -5409.13 -287.66}
 		{xform zl -61.16}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -882,9 +900,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.997645}
-					{prevposition -5393.44 -307.796 206.173}
-					{prevdirection 0.478335 -0.87817 -0.00365502}
+					{value 0.998106}
+					{prevposition -5394.16 -308.259 206.744}
+					{prevdirection 0.481686 -0.876345 -1.0809e-05}
 				}
 			}
 		}
@@ -906,6 +924,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x901b
 		{Position -6055.44 -491.98}
 		{xform zl -32.58}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -915,9 +934,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.852309}
-					{prevposition -6036.61 -500.366 200.44}
-					{prevdirection 0.76912 -0.518268 0.373971}
+					{value 0.997003}
+					{prevposition -6032.44 -502.903 198.096}
+					{prevdirection 0.841938 -0.539575 -2.0078e-05}
 				}
 			}
 		}
@@ -939,6 +958,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x901d
 		{Position -4817.72 18.75}
 		{xform zl -92.8}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -948,9 +968,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.504453}
-					{prevposition -4815.75 -6.63634 214.38}
-					{prevdirection -0.0491493 -0.998791 0.000984691}
+					{value 0.996866}
+					{prevposition -4816.05 -0.604729 216.593}
+					{prevdirection -0.106142 -0.888402 0.446628}
 				}
 			}
 		}
@@ -972,6 +992,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x901f
 		{Position -5860.33 -575.54}
 		{xform zl -118.25}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -981,9 +1002,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.99185}
-					{prevposition -5870.72 -599.099 216.555}
-					{prevdirection -0.506276 -0.862372 -0.000467595}
+					{value 0.996855}
+					{prevposition -5867.14 -593.746 218.815}
+					{prevdirection -0.477371 -0.75665 0.446764}
 				}
 			}
 		}
@@ -1005,6 +1026,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9021
 		{Position -4050 946.52}
 		{xform zl 129.29}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1014,9 +1036,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.997404}
-					{prevposition -4068.62 964.071 237.987}
-					{prevdirection -0.640945 0.767555 0.00716583}
+					{value 0.996838}
+					{prevposition -4064.23 959.756 239.818}
+					{prevdirection -0.517147 0.729954 0.446909}
 				}
 			}
 		}
@@ -1038,6 +1060,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9023
 		{Position -4239.59 793.38}
 		{xform zl -59.92}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1047,9 +1070,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.930771}
-					{prevposition -4225.31 772.879 234.83}
-					{prevdirection 0.468677 -0.883371 -0.000460777}
+					{value 0.99558}
+					{prevposition -4224.2 773.096 235.281}
+					{prevdirection 0.49836 -0.866971 -4.93412e-05}
 				}
 			}
 		}
@@ -1071,6 +1094,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9025
 		{Position -3504.42 964.36}
 		{xform zl 100.99}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1080,9 +1104,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.998401}
-					{prevposition -3490.46 974.718 263.663}
-					{prevdirection 0.941247 0.315476 0.120536}
+					{value 0.96586}
+					{prevposition -3491.62 974.414 260.954}
+					{prevdirection 0.967803 0.249832 -0.0306803}
 				}
 			}
 		}
@@ -1104,6 +1128,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9027
 		{Position -2517.62 547.83}
 		{xform zl -78.99}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1113,9 +1138,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.997457}
-					{prevposition -2509.57 523.528 255.003}
-					{prevdirection 0.19868 -0.980035 0.00768088}
+					{value 0.995222}
+					{prevposition -2509.72 523.625 254.697}
+					{prevdirection 0.186731 -0.982412 -6.43741e-05}
 				}
 			}
 		}
@@ -1137,6 +1162,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9029
 		{Position -2645.05 519.79}
 		{xform zl -90.99}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1146,9 +1172,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.996115}
-					{prevposition -2644.31 494.07 253.995}
-					{prevdirection -0.0799073 -0.996803 -0.000642944}
+					{value 0.996779}
+					{prevposition -2642.72 500.51 256.718}
+					{prevdirection -0.0759199 -0.890882 0.447846}
 				}
 			}
 		}
@@ -1170,6 +1196,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x902b
 		{Position -2668.62 689.48}
 		{xform zl -86.77}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1179,9 +1206,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.987157}
-					{prevposition -2665.01 670.241 259.379}
-					{prevdirection 0.0368231 -0.928006 0.370741}
+					{value 0.975379}
+					{prevposition -2664.86 670.424 260.845}
+					{prevdirection -0.00951096 -0.893929 0.448109}
 				}
 			}
 		}
@@ -1212,9 +1239,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.999028}
-					{prevposition 1556.18 705.401 231.715}
-					{prevdirection -0.283163 -0.959073 0.000315662}
+					{value 0.996122}
+					{prevposition 1556.46 705.233 231.815}
+					{prevdirection -0.281824 -0.959464 0.00235118}
 				}
 			}
 		}
@@ -1245,9 +1272,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.997252}
-					{prevposition 2137.21 517.013 219.845}
-					{prevdirection -0.964607 -0.263588 -0.00745132}
+					{value 0.994256}
+					{prevposition 2137.86 515.229 219.848}
+					{prevdirection -0.94241 -0.334239 -0.0122468}
 				}
 			}
 		}
@@ -1278,9 +1305,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.974085}
-					{prevposition 2340.22 -14.3692 218.824}
-					{prevdirection -0.4497 -0.766942 0.457788}
+					{value 0.994653}
+					{prevposition 2338.82 -20.5163 215.828}
+					{prevdirection -0.414314 -0.910052 -0.0122669}
 				}
 			}
 		}
@@ -1302,6 +1329,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9033
 		{Position 2612.67 51.4}
 		{xform zl -134.13}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1311,9 +1339,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.949856}
-					{prevposition 2602.18 34.5798 227.124}
-					{prevdirection -0.617987 -0.676029 0.401345}
+					{value 0.995401}
+					{prevposition 2598.82 29.8565 224.893}
+					{prevdirection -0.644003 -0.764925 -0.0122988}
 				}
 			}
 		}
@@ -1335,6 +1363,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9035
 		{Position 2971.61 176.49}
 		{xform zl -36.76}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1344,9 +1373,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.997053}
-					{prevposition 2994.27 164.564 238.293}
-					{prevdirection 0.801152 -0.598462 -2.74135e-06}
+					{value 0.965473}
+					{prevposition 2989.48 168.845 239.941}
+					{prevdirection 0.776689 -0.483879 0.403258}
 				}
 			}
 		}
@@ -1377,9 +1406,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.994721}
-					{prevposition 1684.47 70.5705 210.979}
-					{prevdirection -0.998185 -0.0602231 -0.00130194}
+					{value 0.998315}
+					{prevposition 1690.86 69.7234 212.812}
+					{prevdirection -0.902214 -0.146512 0.405641}
 				}
 			}
 		}
@@ -1401,6 +1430,7 @@
 	{Human "single/ger/1942_win/blau_2" 0x9039
 		{Position 3264.96 165.81}
 		{xform zl 76.97}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1410,9 +1440,9 @@
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.998656}
-					{prevposition 3266.74 191.387 243.409}
-					{prevdirection 0.225455 0.974254 -6.45276e-05}
+					{value 0.99978}
+					{prevposition 3267.55 191.147 243.693}
+					{prevdirection 0.225379 0.974272 6.63554e-06}
 				}
 			}
 		}
@@ -1428,7 +1458,7 @@
 	}
 	{Human "mp/ger/late/blau_1" 0x8014
 		{Position -609.57 -3519.65}
-		{xform zl -71.05 y 15.67 zw -45.23}
+		{xform zl -68.23 y 15.67 zw -45.23}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1524,7 +1554,7 @@
 	}
 	{Human "mp/ger/late/blau_2" 0xe009
 		{Position 314.53 -3731.85}
-		{xform zl -5.49 y 3.58 zw 5.28}
+		{xform zl -5.45 y 3.58 zw 5.28}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -1656,6 +1686,9 @@
 			{disabled}
 		}
 		{Volume "detail21"
+			{disabled}
+		}
+		{Volume "detail3"
 			{disabled}
 		}
 		{Armor
@@ -1796,13 +1829,7 @@
 	{Entity "panzer3j1" 0x8016
 		{Position 551.71 -4132.75 20.9}
 		{xform zl -16.87 y 4.65 zw -49.08}
-		{Volume "detail1"
-			{disabled}
-		}
-		{Volume "detail21"
-			{disabled}
-		}
-		{Volume "detail2"
+		{Volume "detail3"
 			{disabled}
 		}
 		{Armor
@@ -1962,6 +1989,7 @@
 		{Position 5199.04 -561.38}
 		{xform zl 110.64 y 7.11 zw -22.83}
 		{TexMod "medic_winter"}
+		{SpawnedInFog}
 		{Extender "detail"
 			{random}
 		}
@@ -1970,75 +1998,6 @@
 	}
 	{Entity "pointer" 0x8026
 		{Position 5209.35 -566.24}
-	}
-	{Human "single/rus/1943_win/tankman" 0x8027
-		{Position 1620.79 -8798.11}
-		{xform zl 33.07 y 5.06 zw 158.86}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 1}
-		{MID 68}
-		{NameId 38 225}
-		{LastItem "tt33"}
-	}
-	{Human "single/rus/1943_win/tankman" 0x8028
-		{Position 1620.79 -8798.11}
-		{xform zl 33.07 y 5.06 zw 158.86}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 1}
-		{MID 69}
-		{NameId 109 162}
-		{LastItem "tt33"}
-	}
-	{Human "single/rus/1943_win/tankman" 0x8029
-		{Position 1537.26 -8815.82}
-		{xform zl -146.92 y 5.06 zw 158.86}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 1}
-		{MID 70}
-		{NameId 60 288}
-		{LastItem "tt33"}
-	}
-	{Entity "ppd40" 0x802a
-		{Extender "stuff"
-			{Item "ppd40" filled 71}
-		}
-	}
-	{Human "single/rus/1943_win/tankman_com" 0x802c
-		{Position 1751.89 -8803.61}
-		{xform zl 30.85 y 5.02 zw 161.1}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 1}
-		{MID 72}
-		{NameId 127 7}
-	}
-	{Entity "is2_44" 0x802d
-		{Position -626.8 -8709.76 3.71}
-		{xform zl 117.42 y 0.28 zw -24.94}
-		{TexMod "winter"}
-		{Volume "detail1"
-			{disabled}
-		}
-		{Extender "enumerator"
-			{number 353}
-			{digit_folder "ru1"}
-		}
-		{Extender "detail"
-			{random}
-		}
-		{Player 1}
-		{MID 73}
 	}
 	{Link 0xd003 {0xd002 "gunner"}}
 	{Link 0xd005 {0xd002 "charger"}}
@@ -2056,10 +2015,6 @@
 	{Link 0x800d {0x8005 "commander"}}
 	{Link 0xe000 {0x8023 "seat"}}
 	{Link 0x802b {0xd004 "seat1"}}
-	{Link 0x8027 {0x802d "gunner"}}
-	{Link 0x8028 {0x802d "driver"}}
-	{Link 0x8029 {0x802d "charger"}}
-	{Link 0x802c {0x802d "commander"}}
 	{Tags "bare" 0x5011}
 	{Tags "bare" 0x2027}
 	{Tags "bare" 0x20c8}
@@ -3122,8 +3077,6 @@
 	{Tags "drunkmedics_2" 0x802b}
 	{Tags "drunkmedics_car" 0xd004}
 	{Tags "pointer" "mediccar_pointer" 0x8026}
-	{Tags "is2commander" 0x802c}
-	{Tags "is2" 0x802d}
 	{Inventory 0xa000
 		{box
 			{clear}
@@ -4563,46 +4516,6 @@
 			{item "ger_stalhelm_m43_medic_var2" {cell 6 9}{user "head"}}
 		}
 	}
-	{Inventory 0x8027
-		{box
-			{clear}
-			{item "tt33" filled {cell 0 0}}
-			{item "tt33" "ammo" 8 {cell 2 0}}
-			{item "tt33" "ammo" 4 {cell 4 0}}
-			{item "bandage_rus" {cell 6 0}}
-			{item "soviet_tankovy_helmet" {cell 0 1}{user "head"}}
-		}
-	}
-	{Inventory 0x8028
-		{box
-			{clear}
-			{item "tt33" filled {cell 0 0}}
-			{item "tt33" "ammo" 8 {cell 2 0}}
-			{item "tt33" "ammo" 4 {cell 4 0}}
-			{item "bandage_rus" {cell 6 0}}
-			{item "soviet_tankovy_helmet" {cell 0 1}{user "head"}}
-		}
-	}
-	{Inventory 0x8029
-		{box
-			{clear}
-			{item "tt33" filled {cell 0 0}}
-			{item "tt33" "ammo" 8 {cell 2 0}}
-			{item "tt33" "ammo" 4 {cell 4 0}}
-			{item "bandage_rus" {cell 6 0}}
-			{item "soviet_tankovy_helmet" {cell 0 1}{user "head"}}
-		}
-	}
-	{Inventory 0x802c
-		{box
-			{clear}
-			{item 0x802a {cell 0 0}}
-			{item "ppd_drum" "ammo" 71 {cell 5 0}}
-			{item "tt33" filled {cell 0 2}}
-			{item "bandage_rus" {cell 2 2}}
-			{item "soviet_tankist_cap" {cell 4 2}{user "head"}}
-		}
-	}
 	{Brain 0xa000
 		{Properties
 			{fire_mode hold}
@@ -5016,39 +4929,6 @@
 	{Brain 0xd004
 		{Properties
 			{fire_mode hold}
-		}
-	}
-	{Brain 0x8027
-		{Properties
-			{advance_ratio 0.5}
-			{retreat_ratio 4}
-		}
-	}
-	{Brain 0x8028
-		{Properties
-			{advance_ratio 0.5}
-			{retreat_ratio 4}
-		}
-	}
-	{Brain 0x8029
-		{Properties
-			{advance_ratio 0.5}
-			{retreat_ratio 4}
-		}
-	}
-	{Brain 0x802c
-		{Properties
-			{fire_mode hold}
-			{move_mode hold}
-			{advance_ratio 0.5}
-			{retreat_ratio 4}
-		}
-	}
-	{Brain 0x802d
-		{Properties
-			{fire_mode hold}
-			{move_mode hold}
-			{look_around 0}
 		}
 	}
 	{Environment "goh/west/wip/winter/day_cloudy_1_b_unter"}
@@ -6366,15 +6246,6 @@
 						}
 						{text "$/tanksarrive_comment"}
 					}
-					{"delay"
-						{time 2}
-					}
-					{"talk"
-						{selector
-							{tag alexandr}
-						}
-						{text "$/tanksarrive_fuck"}
-					}
 				}
 			}
 			{"startscene/laidown"
@@ -6899,7 +6770,6 @@
 		{Squad
 			{Name "is2s"}
 			{Id 0}
-			{Actors 36 73}
 		}
 	}
 }

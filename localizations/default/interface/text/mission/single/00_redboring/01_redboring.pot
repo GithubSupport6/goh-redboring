@@ -248,3 +248,7 @@ msgctxt "mission/single/00_redboring/01_redboring/pak40andguy"
 msgid "Точно! У меня же ещё есть пушка! Пушка, выполнять мою команду!"
 msgstr ""
 
+msgctxt "mission/single/00_redboring/01_redboring/tanksarrive_fuck"
+msgid "Сука!"
+msgstr ""
+
