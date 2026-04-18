@@ -16,6 +16,10 @@ msgctxt "mission/single/00_redboring/01_redboring/name"
 msgid "Мы поехали, командир!"
 msgstr ""
 
+msgctxt "mission/single/00_redboring/01_redboring/title"
+msgid "Мы поехали, командир!"
+msgstr ""
+
 msgctxt "mission/single/00_redboring/01_redboring/place"
 msgid "Где то на просторах миссий GOH"
 msgstr ""
