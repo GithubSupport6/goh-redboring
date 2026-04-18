@@ -3,7 +3,7 @@
 ; Comments start with ';'
 {mod
 	; name of your mod
-	{name "letsgo"}
+	{name "goh-redboring"}
 	
 	; mod tags
 	;{tags "list of tags"}
